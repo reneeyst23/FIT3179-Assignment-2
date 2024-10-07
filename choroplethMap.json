@@ -1,0 +1,70 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "config": {
+        "style": {
+            "tooltip": {
+                "align": "left"
+            }
+        }
+    },
+    "width": 650,
+    "height": 400,
+    "projection": {
+        "type": "equalEarth",
+        "center": [109, 4.5],  
+        "scale": 2000
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/map.json",  
+                "format": {"type": "topojson", "feature": "1"}
+            },
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            }
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/my-3.json",  
+                "format": {"type": "topojson", "feature": "my"}
+            },
+            "transform": [
+                {
+                    "lookup": "properties.name",  
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/death_state.csv",  
+                            "format": {"type": "csv"}
+                        },
+                        "key": "state",  
+                        "fields": ["rate"]  
+                    }
+                }
+            ],
+            "mark": "geoshape",
+            "encoding": {
+                "color": {
+                    "field": "rate",
+                    "title": "Death rate per 1000 population",
+                    "type": "quantitative",
+                    "scale": {"scheme": "blues"},
+                    "legend": {
+                        "titleFontSize": 12, 
+                        "labelFontSize": 12,  
+                        "gradientLength": 200,  
+                        "orient": "top-right", 
+                        "titleFont": "Arial",  
+                        "labelFont": "Arial"   
+                    }
+                },
+                "tooltip": [
+                    {"field": "properties.name", "type": "nominal", "title": "State"},
+                    {"field": "rate", "type": "quantitative", "title": "Death Rate"}
+                ]
+            }  
+        }
+    ]
+}

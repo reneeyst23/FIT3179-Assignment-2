@@ -1,0 +1,1537 @@
+state,date,sex,ethnicity,abs
+Johor,01/01/2015,female,bumi_malay,4466
+Johor,01/01/2015,male,bumi_malay,6008
+Johor,01/01/2016,female,bumi_malay,4767
+Johor,01/01/2016,male,bumi_malay,6389
+Johor,01/01/2017,female,bumi_malay,4911
+Johor,01/01/2017,male,bumi_malay,6636
+Johor,01/01/2018,female,bumi_malay,5027
+Johor,01/01/2018,male,bumi_malay,6785
+Johor,01/01/2019,female,bumi_malay,5234
+Johor,01/01/2019,male,bumi_malay,6928
+Johor,01/01/2020,female,bumi_malay,4831
+Johor,01/01/2020,male,bumi_malay,6645
+Johor,01/01/2021,female,bumi_malay,6736
+Johor,01/01/2021,male,bumi_malay,8554
+Johor,01/01/2022,female,bumi_malay,6296
+Johor,01/01/2022,male,bumi_malay,8021
+Kedah,01/01/2015,female,bumi_malay,4617
+Kedah,01/01/2015,male,bumi_malay,5904
+Kedah,01/01/2016,female,bumi_malay,4744
+Kedah,01/01/2016,male,bumi_malay,5887
+Kedah,01/01/2017,female,bumi_malay,4973
+Kedah,01/01/2017,male,bumi_malay,6188
+Kedah,01/01/2018,female,bumi_malay,5007
+Kedah,01/01/2018,male,bumi_malay,6285
+Kedah,01/01/2019,female,bumi_malay,4870
+Kedah,01/01/2019,male,bumi_malay,6104
+Kedah,01/01/2020,female,bumi_malay,4655
+Kedah,01/01/2020,male,bumi_malay,5885
+Kedah,01/01/2021,female,bumi_malay,6662
+Kedah,01/01/2021,male,bumi_malay,7652
+Kedah,01/01/2022,female,bumi_malay,6216
+Kedah,01/01/2022,male,bumi_malay,7531
+Kelantan,01/01/2015,female,bumi_malay,4447
+Kelantan,01/01/2015,male,bumi_malay,5721
+Kelantan,01/01/2016,female,bumi_malay,4412
+Kelantan,01/01/2016,male,bumi_malay,5713
+Kelantan,01/01/2017,female,bumi_malay,4612
+Kelantan,01/01/2017,male,bumi_malay,5871
+Kelantan,01/01/2018,female,bumi_malay,4698
+Kelantan,01/01/2018,male,bumi_malay,5884
+Kelantan,01/01/2019,female,bumi_malay,4655
+Kelantan,01/01/2019,male,bumi_malay,6019
+Kelantan,01/01/2020,female,bumi_malay,4415
+Kelantan,01/01/2020,male,bumi_malay,5813
+Kelantan,01/01/2021,female,bumi_malay,5948
+Kelantan,01/01/2021,male,bumi_malay,7093
+Kelantan,01/01/2022,female,bumi_malay,5690
+Kelantan,01/01/2022,male,bumi_malay,6912
+Melaka,01/01/2015,female,bumi_malay,1352
+Melaka,01/01/2015,male,bumi_malay,1641
+Melaka,01/01/2016,female,bumi_malay,1410
+Melaka,01/01/2016,male,bumi_malay,1715
+Melaka,01/01/2017,female,bumi_malay,1526
+Melaka,01/01/2017,male,bumi_malay,1777
+Melaka,01/01/2018,female,bumi_malay,1449
+Melaka,01/01/2018,male,bumi_malay,1863
+Melaka,01/01/2019,female,bumi_malay,1522
+Melaka,01/01/2019,male,bumi_malay,1857
+Melaka,01/01/2020,female,bumi_malay,1465
+Melaka,01/01/2020,male,bumi_malay,1779
+Melaka,01/01/2021,female,bumi_malay,2003
+Melaka,01/01/2021,male,bumi_malay,2384
+Melaka,01/01/2022,female,bumi_malay,1859
+Melaka,01/01/2022,male,bumi_malay,2201
+Negeri Sembilan,01/01/2015,female,bumi_malay,1557
+Negeri Sembilan,01/01/2015,male,bumi_malay,2041
+Negeri Sembilan,01/01/2016,female,bumi_malay,1625
+Negeri Sembilan,01/01/2016,male,bumi_malay,2058
+Negeri Sembilan,01/01/2017,female,bumi_malay,1658
+Negeri Sembilan,01/01/2017,male,bumi_malay,2213
+Negeri Sembilan,01/01/2018,female,bumi_malay,1692
+Negeri Sembilan,01/01/2018,male,bumi_malay,2330
+Negeri Sembilan,01/01/2019,female,bumi_malay,1688
+Negeri Sembilan,01/01/2019,male,bumi_malay,2259
+Negeri Sembilan,01/01/2020,female,bumi_malay,1623
+Negeri Sembilan,01/01/2020,male,bumi_malay,2202
+Negeri Sembilan,01/01/2021,female,bumi_malay,2265
+Negeri Sembilan,01/01/2021,male,bumi_malay,2811
+Negeri Sembilan,01/01/2022,female,bumi_malay,2107
+Negeri Sembilan,01/01/2022,male,bumi_malay,2699
+Pahang,01/01/2015,female,bumi_malay,2469
+Pahang,01/01/2015,male,bumi_malay,3568
+Pahang,01/01/2016,female,bumi_malay,2573
+Pahang,01/01/2016,male,bumi_malay,3742
+Pahang,01/01/2017,female,bumi_malay,2743
+Pahang,01/01/2017,male,bumi_malay,3837
+Pahang,01/01/2018,female,bumi_malay,2712
+Pahang,01/01/2018,male,bumi_malay,3873
+Pahang,01/01/2019,female,bumi_malay,2763
+Pahang,01/01/2019,male,bumi_malay,3740
+Pahang,01/01/2020,female,bumi_malay,2552
+Pahang,01/01/2020,male,bumi_malay,3562
+Pahang,01/01/2021,female,bumi_malay,3042
+Pahang,01/01/2021,male,bumi_malay,4251
+Pahang,01/01/2022,female,bumi_malay,3240
+Pahang,01/01/2022,male,bumi_malay,4632
+Perak,01/01/2015,female,bumi_malay,3731
+Perak,01/01/2015,male,bumi_malay,4762
+Perak,01/01/2016,female,bumi_malay,3805
+Perak,01/01/2016,male,bumi_malay,4978
+Perak,01/01/2017,female,bumi_malay,3892
+Perak,01/01/2017,male,bumi_malay,5016
+Perak,01/01/2018,female,bumi_malay,4125
+Perak,01/01/2018,male,bumi_malay,5087
+Perak,01/01/2019,female,bumi_malay,4118
+Perak,01/01/2019,male,bumi_malay,5069
+Perak,01/01/2020,female,bumi_malay,3926
+Perak,01/01/2020,male,bumi_malay,4942
+Perak,01/01/2021,female,bumi_malay,4721
+Perak,01/01/2021,male,bumi_malay,5935
+Perak,01/01/2022,female,bumi_malay,5131
+Perak,01/01/2022,male,bumi_malay,6196
+Perlis,01/01/2015,female,bumi_malay,706
+Perlis,01/01/2015,male,bumi_malay,820
+Perlis,01/01/2016,female,bumi_malay,755
+Perlis,01/01/2016,male,bumi_malay,874
+Perlis,01/01/2017,female,bumi_malay,781
+Perlis,01/01/2017,male,bumi_malay,930
+Perlis,01/01/2018,female,bumi_malay,777
+Perlis,01/01/2018,male,bumi_malay,994
+Perlis,01/01/2019,female,bumi_malay,753
+Perlis,01/01/2019,male,bumi_malay,961
+Perlis,01/01/2020,female,bumi_malay,777
+Perlis,01/01/2020,male,bumi_malay,915
+Perlis,01/01/2021,female,bumi_malay,854
+Perlis,01/01/2021,male,bumi_malay,1048
+Perlis,01/01/2022,female,bumi_malay,938
+Perlis,01/01/2022,male,bumi_malay,1156
+Pulau Pinang,01/01/2015,female,bumi_malay,1643
+Pulau Pinang,01/01/2015,male,bumi_malay,1999
+Pulau Pinang,01/01/2016,female,bumi_malay,1646
+Pulau Pinang,01/01/2016,male,bumi_malay,2206
+Pulau Pinang,01/01/2017,female,bumi_malay,1853
+Pulau Pinang,01/01/2017,male,bumi_malay,2114
+Pulau Pinang,01/01/2018,female,bumi_malay,1836
+Pulau Pinang,01/01/2018,male,bumi_malay,2249
+Pulau Pinang,01/01/2019,female,bumi_malay,1763
+Pulau Pinang,01/01/2019,male,bumi_malay,2186
+Pulau Pinang,01/01/2020,female,bumi_malay,1689
+Pulau Pinang,01/01/2020,male,bumi_malay,2092
+Pulau Pinang,01/01/2021,female,bumi_malay,2229
+Pulau Pinang,01/01/2021,male,bumi_malay,2757
+Pulau Pinang,01/01/2022,female,bumi_malay,2088
+Pulau Pinang,01/01/2022,male,bumi_malay,2622
+Sabah,01/01/2015,female,bumi_malay,485
+Sabah,01/01/2015,male,bumi_malay,784
+Sabah,01/01/2016,female,bumi_malay,636
+Sabah,01/01/2016,male,bumi_malay,1113
+Sabah,01/01/2017,female,bumi_malay,658
+Sabah,01/01/2017,male,bumi_malay,1172
+Sabah,01/01/2018,female,bumi_malay,704
+Sabah,01/01/2018,male,bumi_malay,1268
+Sabah,01/01/2019,female,bumi_malay,776
+Sabah,01/01/2019,male,bumi_malay,1310
+Sabah,01/01/2020,female,bumi_malay,751
+Sabah,01/01/2020,male,bumi_malay,1229
+Sabah,01/01/2021,female,bumi_malay,1050
+Sabah,01/01/2021,male,bumi_malay,1568
+Sabah,01/01/2022,female,bumi_malay,913
+Sabah,01/01/2022,male,bumi_malay,1468
+Sarawak,01/01/2015,female,bumi_malay,1088
+Sarawak,01/01/2015,male,bumi_malay,1410
+Sarawak,01/01/2016,female,bumi_malay,1107
+Sarawak,01/01/2016,male,bumi_malay,1446
+Sarawak,01/01/2017,female,bumi_malay,1092
+Sarawak,01/01/2017,male,bumi_malay,1479
+Sarawak,01/01/2018,female,bumi_malay,1206
+Sarawak,01/01/2018,male,bumi_malay,1574
+Sarawak,01/01/2019,female,bumi_malay,1240
+Sarawak,01/01/2019,male,bumi_malay,1557
+Sarawak,01/01/2020,female,bumi_malay,1215
+Sarawak,01/01/2020,male,bumi_malay,1623
+Sarawak,01/01/2021,female,bumi_malay,1485
+Sarawak,01/01/2021,male,bumi_malay,1966
+Sarawak,01/01/2022,female,bumi_malay,1437
+Sarawak,01/01/2022,male,bumi_malay,1888
+Selangor,01/01/2015,female,bumi_malay,4749
+Selangor,01/01/2015,male,bumi_malay,6261
+Selangor,01/01/2016,female,bumi_malay,5026
+Selangor,01/01/2016,male,bumi_malay,6689
+Selangor,01/01/2017,female,bumi_malay,5278
+Selangor,01/01/2017,male,bumi_malay,7050
+Selangor,01/01/2018,female,bumi_malay,5528
+Selangor,01/01/2018,male,bumi_malay,7257
+Selangor,01/01/2019,female,bumi_malay,5388
+Selangor,01/01/2019,male,bumi_malay,7509
+Selangor,01/01/2020,female,bumi_malay,4764
+Selangor,01/01/2020,male,bumi_malay,6889
+Selangor,01/01/2021,female,bumi_malay,8107
+Selangor,01/01/2021,male,bumi_malay,11011
+Selangor,01/01/2022,female,bumi_malay,6510
+Selangor,01/01/2022,male,bumi_malay,8847
+Terengganu,01/01/2015,female,bumi_malay,2766
+Terengganu,01/01/2015,male,bumi_malay,3692
+Terengganu,01/01/2016,female,bumi_malay,2782
+Terengganu,01/01/2016,male,bumi_malay,3777
+Terengganu,01/01/2017,female,bumi_malay,2923
+Terengganu,01/01/2017,male,bumi_malay,3843
+Terengganu,01/01/2018,female,bumi_malay,2934
+Terengganu,01/01/2018,male,bumi_malay,3899
+Terengganu,01/01/2019,female,bumi_malay,3019
+Terengganu,01/01/2019,male,bumi_malay,4025
+Terengganu,01/01/2020,female,bumi_malay,2761
+Terengganu,01/01/2020,male,bumi_malay,3711
+Terengganu,01/01/2021,female,bumi_malay,3699
+Terengganu,01/01/2021,male,bumi_malay,4439
+Terengganu,01/01/2022,female,bumi_malay,3775
+Terengganu,01/01/2022,male,bumi_malay,4571
+W.P. Kuala Lumpur,01/01/2015,female,bumi_malay,1043
+W.P. Kuala Lumpur,01/01/2015,male,bumi_malay,1413
+W.P. Kuala Lumpur,01/01/2016,female,bumi_malay,1120
+W.P. Kuala Lumpur,01/01/2016,male,bumi_malay,1621
+W.P. Kuala Lumpur,01/01/2017,female,bumi_malay,1117
+W.P. Kuala Lumpur,01/01/2017,male,bumi_malay,1578
+W.P. Kuala Lumpur,01/01/2018,female,bumi_malay,1200
+W.P. Kuala Lumpur,01/01/2018,male,bumi_malay,1658
+W.P. Kuala Lumpur,01/01/2019,female,bumi_malay,1238
+W.P. Kuala Lumpur,01/01/2019,male,bumi_malay,1787
+W.P. Kuala Lumpur,01/01/2020,female,bumi_malay,1158
+W.P. Kuala Lumpur,01/01/2020,male,bumi_malay,1684
+W.P. Kuala Lumpur,01/01/2021,female,bumi_malay,1966
+W.P. Kuala Lumpur,01/01/2021,male,bumi_malay,2548
+W.P. Kuala Lumpur,01/01/2022,female,bumi_malay,1419
+W.P. Kuala Lumpur,01/01/2022,male,bumi_malay,1885
+W.P. Labuan,01/01/2015,female,bumi_malay,42
+W.P. Labuan,01/01/2015,male,bumi_malay,61
+W.P. Labuan,01/01/2016,female,bumi_malay,45
+W.P. Labuan,01/01/2016,male,bumi_malay,62
+W.P. Labuan,01/01/2017,female,bumi_malay,44
+W.P. Labuan,01/01/2017,male,bumi_malay,40
+W.P. Labuan,01/01/2018,female,bumi_malay,51
+W.P. Labuan,01/01/2018,male,bumi_malay,59
+W.P. Labuan,01/01/2019,female,bumi_malay,37
+W.P. Labuan,01/01/2019,male,bumi_malay,59
+W.P. Labuan,01/01/2020,female,bumi_malay,47
+W.P. Labuan,01/01/2020,male,bumi_malay,66
+W.P. Labuan,01/01/2021,female,bumi_malay,76
+W.P. Labuan,01/01/2021,male,bumi_malay,123
+W.P. Labuan,01/01/2022,female,bumi_malay,71
+W.P. Labuan,01/01/2022,male,bumi_malay,78
+W.P. Putrajaya,01/01/2015,female,bumi_malay,94
+W.P. Putrajaya,01/01/2015,male,bumi_malay,86
+W.P. Putrajaya,01/01/2016,female,bumi_malay,71
+W.P. Putrajaya,01/01/2016,male,bumi_malay,80
+W.P. Putrajaya,01/01/2017,female,bumi_malay,100
+W.P. Putrajaya,01/01/2017,male,bumi_malay,112
+W.P. Putrajaya,01/01/2018,female,bumi_malay,94
+W.P. Putrajaya,01/01/2018,male,bumi_malay,113
+W.P. Putrajaya,01/01/2019,female,bumi_malay,90
+W.P. Putrajaya,01/01/2019,male,bumi_malay,107
+W.P. Putrajaya,01/01/2020,female,bumi_malay,86
+W.P. Putrajaya,01/01/2020,male,bumi_malay,112
+W.P. Putrajaya,01/01/2021,female,bumi_malay,102
+W.P. Putrajaya,01/01/2021,male,bumi_malay,144
+W.P. Putrajaya,01/01/2022,female,bumi_malay,102
+W.P. Putrajaya,01/01/2022,male,bumi_malay,128
+Johor,01/01/2015,female,bumi_other,76
+Johor,01/01/2015,male,bumi_other,89
+Johor,01/01/2016,female,bumi_other,70
+Johor,01/01/2016,male,bumi_other,106
+Johor,01/01/2017,female,bumi_other,69
+Johor,01/01/2017,male,bumi_other,124
+Johor,01/01/2018,female,bumi_other,64
+Johor,01/01/2018,male,bumi_other,109
+Johor,01/01/2019,female,bumi_other,77
+Johor,01/01/2019,male,bumi_other,112
+Johor,01/01/2020,female,bumi_other,91
+Johor,01/01/2020,male,bumi_other,139
+Johor,01/01/2021,female,bumi_other,141
+Johor,01/01/2021,male,bumi_other,189
+Johor,01/01/2022,female,bumi_other,106
+Johor,01/01/2022,male,bumi_other,151
+Kedah,01/01/2015,female,bumi_other,4
+Kedah,01/01/2015,male,bumi_other,7
+Kedah,01/01/2016,female,bumi_other,8
+Kedah,01/01/2016,male,bumi_other,7
+Kedah,01/01/2017,female,bumi_other,3
+Kedah,01/01/2017,male,bumi_other,6
+Kedah,01/01/2018,female,bumi_other,7
+Kedah,01/01/2018,male,bumi_other,9
+Kedah,01/01/2019,female,bumi_other,8
+Kedah,01/01/2019,male,bumi_other,4
+Kedah,01/01/2020,female,bumi_other,4
+Kedah,01/01/2020,male,bumi_other,7
+Kedah,01/01/2021,female,bumi_other,8
+Kedah,01/01/2021,male,bumi_other,8
+Kedah,01/01/2022,female,bumi_other,8
+Kedah,01/01/2022,male,bumi_other,9
+Kelantan,01/01/2015,female,bumi_other,34
+Kelantan,01/01/2015,male,bumi_other,37
+Kelantan,01/01/2016,female,bumi_other,39
+Kelantan,01/01/2016,male,bumi_other,56
+Kelantan,01/01/2017,female,bumi_other,38
+Kelantan,01/01/2017,male,bumi_other,64
+Kelantan,01/01/2018,female,bumi_other,40
+Kelantan,01/01/2018,male,bumi_other,78
+Kelantan,01/01/2019,female,bumi_other,40
+Kelantan,01/01/2019,male,bumi_other,72
+Kelantan,01/01/2020,female,bumi_other,42
+Kelantan,01/01/2020,male,bumi_other,42
+Kelantan,01/01/2021,female,bumi_other,53
+Kelantan,01/01/2021,male,bumi_other,66
+Kelantan,01/01/2022,female,bumi_other,48
+Kelantan,01/01/2022,male,bumi_other,72
+Melaka,01/01/2015,female,bumi_other,16
+Melaka,01/01/2015,male,bumi_other,15
+Melaka,01/01/2016,female,bumi_other,6
+Melaka,01/01/2016,male,bumi_other,18
+Melaka,01/01/2017,female,bumi_other,10
+Melaka,01/01/2017,male,bumi_other,21
+Melaka,01/01/2018,female,bumi_other,8
+Melaka,01/01/2018,male,bumi_other,12
+Melaka,01/01/2019,female,bumi_other,9
+Melaka,01/01/2019,male,bumi_other,19
+Melaka,01/01/2020,female,bumi_other,8
+Melaka,01/01/2020,male,bumi_other,18
+Melaka,01/01/2021,female,bumi_other,17
+Melaka,01/01/2021,male,bumi_other,20
+Melaka,01/01/2022,female,bumi_other,9
+Melaka,01/01/2022,male,bumi_other,16
+Negeri Sembilan,01/01/2015,female,bumi_other,32
+Negeri Sembilan,01/01/2015,male,bumi_other,40
+Negeri Sembilan,01/01/2016,female,bumi_other,24
+Negeri Sembilan,01/01/2016,male,bumi_other,50
+Negeri Sembilan,01/01/2017,female,bumi_other,39
+Negeri Sembilan,01/01/2017,male,bumi_other,71
+Negeri Sembilan,01/01/2018,female,bumi_other,41
+Negeri Sembilan,01/01/2018,male,bumi_other,41
+Negeri Sembilan,01/01/2019,female,bumi_other,44
+Negeri Sembilan,01/01/2019,male,bumi_other,45
+Negeri Sembilan,01/01/2020,female,bumi_other,40
+Negeri Sembilan,01/01/2020,male,bumi_other,53
+Negeri Sembilan,01/01/2021,female,bumi_other,54
+Negeri Sembilan,01/01/2021,male,bumi_other,65
+Negeri Sembilan,01/01/2022,female,bumi_other,51
+Negeri Sembilan,01/01/2022,male,bumi_other,67
+Pahang,01/01/2015,female,bumi_other,186
+Pahang,01/01/2015,male,bumi_other,259
+Pahang,01/01/2016,female,bumi_other,174
+Pahang,01/01/2016,male,bumi_other,278
+Pahang,01/01/2017,female,bumi_other,192
+Pahang,01/01/2017,male,bumi_other,244
+Pahang,01/01/2018,female,bumi_other,184
+Pahang,01/01/2018,male,bumi_other,283
+Pahang,01/01/2019,female,bumi_other,191
+Pahang,01/01/2019,male,bumi_other,255
+Pahang,01/01/2020,female,bumi_other,146
+Pahang,01/01/2020,male,bumi_other,247
+Pahang,01/01/2021,female,bumi_other,205
+Pahang,01/01/2021,male,bumi_other,278
+Pahang,01/01/2022,female,bumi_other,230
+Pahang,01/01/2022,male,bumi_other,303
+Perak,01/01/2015,female,bumi_other,123
+Perak,01/01/2015,male,bumi_other,212
+Perak,01/01/2016,female,bumi_other,137
+Perak,01/01/2016,male,bumi_other,233
+Perak,01/01/2017,female,bumi_other,131
+Perak,01/01/2017,male,bumi_other,239
+Perak,01/01/2018,female,bumi_other,120
+Perak,01/01/2018,male,bumi_other,219
+Perak,01/01/2019,female,bumi_other,153
+Perak,01/01/2019,male,bumi_other,207
+Perak,01/01/2020,female,bumi_other,115
+Perak,01/01/2020,male,bumi_other,169
+Perak,01/01/2021,female,bumi_other,221
+Perak,01/01/2021,male,bumi_other,253
+Perak,01/01/2022,female,bumi_other,167
+Perak,01/01/2022,male,bumi_other,253
+Perlis,01/01/2015,female,bumi_other,0
+Perlis,01/01/2015,male,bumi_other,2
+Perlis,01/01/2016,female,bumi_other,0
+Perlis,01/01/2016,male,bumi_other,1
+Perlis,01/01/2017,female,bumi_other,0
+Perlis,01/01/2017,male,bumi_other,2
+Perlis,01/01/2018,female,bumi_other,2
+Perlis,01/01/2018,male,bumi_other,0
+Perlis,01/01/2019,female,bumi_other,2
+Perlis,01/01/2019,male,bumi_other,1
+Perlis,01/01/2020,female,bumi_other,0
+Perlis,01/01/2020,male,bumi_other,0
+Perlis,01/01/2021,female,bumi_other,1
+Perlis,01/01/2021,male,bumi_other,0
+Perlis,01/01/2022,female,bumi_other,0
+Perlis,01/01/2022,male,bumi_other,0
+Pulau Pinang,01/01/2015,female,bumi_other,2
+Pulau Pinang,01/01/2015,male,bumi_other,2
+Pulau Pinang,01/01/2016,female,bumi_other,3
+Pulau Pinang,01/01/2016,male,bumi_other,5
+Pulau Pinang,01/01/2017,female,bumi_other,2
+Pulau Pinang,01/01/2017,male,bumi_other,2
+Pulau Pinang,01/01/2018,female,bumi_other,2
+Pulau Pinang,01/01/2018,male,bumi_other,4
+Pulau Pinang,01/01/2019,female,bumi_other,4
+Pulau Pinang,01/01/2019,male,bumi_other,7
+Pulau Pinang,01/01/2020,female,bumi_other,5
+Pulau Pinang,01/01/2020,male,bumi_other,10
+Pulau Pinang,01/01/2021,female,bumi_other,8
+Pulau Pinang,01/01/2021,male,bumi_other,10
+Pulau Pinang,01/01/2022,female,bumi_other,10
+Pulau Pinang,01/01/2022,male,bumi_other,10
+Sabah,01/01/2015,female,bumi_other,3143
+Sabah,01/01/2015,male,bumi_other,4263
+Sabah,01/01/2016,female,bumi_other,3431
+Sabah,01/01/2016,male,bumi_other,4718
+Sabah,01/01/2017,female,bumi_other,3659
+Sabah,01/01/2017,male,bumi_other,5027
+Sabah,01/01/2018,female,bumi_other,3763
+Sabah,01/01/2018,male,bumi_other,4996
+Sabah,01/01/2019,female,bumi_other,4029
+Sabah,01/01/2019,male,bumi_other,5187
+Sabah,01/01/2020,female,bumi_other,4024
+Sabah,01/01/2020,male,bumi_other,5512
+Sabah,01/01/2021,female,bumi_other,5152
+Sabah,01/01/2021,male,bumi_other,6619
+Sabah,01/01/2022,female,bumi_other,4734
+Sabah,01/01/2022,male,bumi_other,6305
+Sarawak,01/01/2015,female,bumi_other,2823
+Sarawak,01/01/2015,male,bumi_other,3635
+Sarawak,01/01/2016,female,bumi_other,2914
+Sarawak,01/01/2016,male,bumi_other,3813
+Sarawak,01/01/2017,female,bumi_other,2997
+Sarawak,01/01/2017,male,bumi_other,4016
+Sarawak,01/01/2018,female,bumi_other,3221
+Sarawak,01/01/2018,male,bumi_other,4141
+Sarawak,01/01/2019,female,bumi_other,3308
+Sarawak,01/01/2019,male,bumi_other,4190
+Sarawak,01/01/2020,female,bumi_other,3139
+Sarawak,01/01/2020,male,bumi_other,4312
+Sarawak,01/01/2021,female,bumi_other,4053
+Sarawak,01/01/2021,male,bumi_other,5476
+Sarawak,01/01/2022,female,bumi_other,3832
+Sarawak,01/01/2022,male,bumi_other,5026
+Selangor,01/01/2015,female,bumi_other,86
+Selangor,01/01/2015,male,bumi_other,107
+Selangor,01/01/2016,female,bumi_other,91
+Selangor,01/01/2016,male,bumi_other,150
+Selangor,01/01/2017,female,bumi_other,86
+Selangor,01/01/2017,male,bumi_other,140
+Selangor,01/01/2018,female,bumi_other,97
+Selangor,01/01/2018,male,bumi_other,151
+Selangor,01/01/2019,female,bumi_other,93
+Selangor,01/01/2019,male,bumi_other,165
+Selangor,01/01/2020,female,bumi_other,101
+Selangor,01/01/2020,male,bumi_other,153
+Selangor,01/01/2021,female,bumi_other,202
+Selangor,01/01/2021,male,bumi_other,288
+Selangor,01/01/2022,female,bumi_other,123
+Selangor,01/01/2022,male,bumi_other,196
+Terengganu,01/01/2015,female,bumi_other,3
+Terengganu,01/01/2015,male,bumi_other,5
+Terengganu,01/01/2016,female,bumi_other,7
+Terengganu,01/01/2016,male,bumi_other,8
+Terengganu,01/01/2017,female,bumi_other,3
+Terengganu,01/01/2017,male,bumi_other,11
+Terengganu,01/01/2018,female,bumi_other,3
+Terengganu,01/01/2018,male,bumi_other,7
+Terengganu,01/01/2019,female,bumi_other,5
+Terengganu,01/01/2019,male,bumi_other,6
+Terengganu,01/01/2020,female,bumi_other,7
+Terengganu,01/01/2020,male,bumi_other,5
+Terengganu,01/01/2021,female,bumi_other,3
+Terengganu,01/01/2021,male,bumi_other,9
+Terengganu,01/01/2022,female,bumi_other,5
+Terengganu,01/01/2022,male,bumi_other,8
+W.P. Kuala Lumpur,01/01/2015,female,bumi_other,4
+W.P. Kuala Lumpur,01/01/2015,male,bumi_other,34
+W.P. Kuala Lumpur,01/01/2016,female,bumi_other,12
+W.P. Kuala Lumpur,01/01/2016,male,bumi_other,33
+W.P. Kuala Lumpur,01/01/2017,female,bumi_other,13
+W.P. Kuala Lumpur,01/01/2017,male,bumi_other,29
+W.P. Kuala Lumpur,01/01/2018,female,bumi_other,7
+W.P. Kuala Lumpur,01/01/2018,male,bumi_other,38
+W.P. Kuala Lumpur,01/01/2019,female,bumi_other,15
+W.P. Kuala Lumpur,01/01/2019,male,bumi_other,32
+W.P. Kuala Lumpur,01/01/2020,female,bumi_other,10
+W.P. Kuala Lumpur,01/01/2020,male,bumi_other,34
+W.P. Kuala Lumpur,01/01/2021,female,bumi_other,35
+W.P. Kuala Lumpur,01/01/2021,male,bumi_other,58
+W.P. Kuala Lumpur,01/01/2022,female,bumi_other,11
+W.P. Kuala Lumpur,01/01/2022,male,bumi_other,39
+W.P. Labuan,01/01/2015,female,bumi_other,31
+W.P. Labuan,01/01/2015,male,bumi_other,47
+W.P. Labuan,01/01/2016,female,bumi_other,23
+W.P. Labuan,01/01/2016,male,bumi_other,64
+W.P. Labuan,01/01/2017,female,bumi_other,35
+W.P. Labuan,01/01/2017,male,bumi_other,46
+W.P. Labuan,01/01/2018,female,bumi_other,29
+W.P. Labuan,01/01/2018,male,bumi_other,55
+W.P. Labuan,01/01/2019,female,bumi_other,33
+W.P. Labuan,01/01/2019,male,bumi_other,64
+W.P. Labuan,01/01/2020,female,bumi_other,34
+W.P. Labuan,01/01/2020,male,bumi_other,55
+W.P. Labuan,01/01/2021,female,bumi_other,64
+W.P. Labuan,01/01/2021,male,bumi_other,80
+W.P. Labuan,01/01/2022,female,bumi_other,59
+W.P. Labuan,01/01/2022,male,bumi_other,63
+W.P. Putrajaya,01/01/2015,female,bumi_other,0
+W.P. Putrajaya,01/01/2015,male,bumi_other,2
+W.P. Putrajaya,01/01/2016,female,bumi_other,1
+W.P. Putrajaya,01/01/2016,male,bumi_other,1
+W.P. Putrajaya,01/01/2017,female,bumi_other,1
+W.P. Putrajaya,01/01/2017,male,bumi_other,3
+W.P. Putrajaya,01/01/2018,female,bumi_other,1
+W.P. Putrajaya,01/01/2018,male,bumi_other,1
+W.P. Putrajaya,01/01/2019,female,bumi_other,2
+W.P. Putrajaya,01/01/2019,male,bumi_other,1
+W.P. Putrajaya,01/01/2020,female,bumi_other,2
+W.P. Putrajaya,01/01/2020,male,bumi_other,2
+W.P. Putrajaya,01/01/2021,female,bumi_other,1
+W.P. Putrajaya,01/01/2021,male,bumi_other,2
+W.P. Putrajaya,01/01/2022,female,bumi_other,3
+W.P. Putrajaya,01/01/2022,male,bumi_other,0
+Johor,01/01/2015,female,chinese,2509
+Johor,01/01/2015,male,chinese,3669
+Johor,01/01/2016,female,chinese,2599
+Johor,01/01/2016,male,chinese,3805
+Johor,01/01/2017,female,chinese,2717
+Johor,01/01/2017,male,chinese,3924
+Johor,01/01/2018,female,chinese,2750
+Johor,01/01/2018,male,chinese,4023
+Johor,01/01/2019,female,chinese,2817
+Johor,01/01/2019,male,chinese,4150
+Johor,01/01/2020,female,chinese,2744
+Johor,01/01/2020,male,chinese,4058
+Johor,01/01/2021,female,chinese,3215
+Johor,01/01/2021,male,chinese,4880
+Johor,01/01/2022,female,chinese,3290
+Johor,01/01/2022,male,chinese,4800
+Kedah,01/01/2015,female,chinese,794
+Kedah,01/01/2015,male,chinese,1113
+Kedah,01/01/2016,female,chinese,767
+Kedah,01/01/2016,male,chinese,1093
+Kedah,01/01/2017,female,chinese,755
+Kedah,01/01/2017,male,chinese,1114
+Kedah,01/01/2018,female,chinese,772
+Kedah,01/01/2018,male,chinese,1172
+Kedah,01/01/2019,female,chinese,805
+Kedah,01/01/2019,male,chinese,1130
+Kedah,01/01/2020,female,chinese,785
+Kedah,01/01/2020,male,chinese,1099
+Kedah,01/01/2021,female,chinese,920
+Kedah,01/01/2021,male,chinese,1340
+Kedah,01/01/2022,female,chinese,974
+Kedah,01/01/2022,male,chinese,1335
+Kelantan,01/01/2015,female,chinese,143
+Kelantan,01/01/2015,male,chinese,239
+Kelantan,01/01/2016,female,chinese,164
+Kelantan,01/01/2016,male,chinese,253
+Kelantan,01/01/2017,female,chinese,180
+Kelantan,01/01/2017,male,chinese,232
+Kelantan,01/01/2018,female,chinese,156
+Kelantan,01/01/2018,male,chinese,257
+Kelantan,01/01/2019,female,chinese,165
+Kelantan,01/01/2019,male,chinese,241
+Kelantan,01/01/2020,female,chinese,146
+Kelantan,01/01/2020,male,chinese,281
+Kelantan,01/01/2021,female,chinese,186
+Kelantan,01/01/2021,male,chinese,305
+Kelantan,01/01/2022,female,chinese,183
+Kelantan,01/01/2022,male,chinese,295
+Melaka,01/01/2015,female,chinese,623
+Melaka,01/01/2015,male,chinese,861
+Melaka,01/01/2016,female,chinese,672
+Melaka,01/01/2016,male,chinese,868
+Melaka,01/01/2017,female,chinese,680
+Melaka,01/01/2017,male,chinese,957
+Melaka,01/01/2018,female,chinese,664
+Melaka,01/01/2018,male,chinese,886
+Melaka,01/01/2019,female,chinese,694
+Melaka,01/01/2019,male,chinese,944
+Melaka,01/01/2020,female,chinese,700
+Melaka,01/01/2020,male,chinese,968
+Melaka,01/01/2021,female,chinese,850
+Melaka,01/01/2021,male,chinese,1112
+Melaka,01/01/2022,female,chinese,841
+Melaka,01/01/2022,male,chinese,1072
+Negeri Sembilan,01/01/2015,female,chinese,741
+Negeri Sembilan,01/01/2015,male,chinese,986
+Negeri Sembilan,01/01/2016,female,chinese,714
+Negeri Sembilan,01/01/2016,male,chinese,1041
+Negeri Sembilan,01/01/2017,female,chinese,748
+Negeri Sembilan,01/01/2017,male,chinese,1051
+Negeri Sembilan,01/01/2018,female,chinese,768
+Negeri Sembilan,01/01/2018,male,chinese,1060
+Negeri Sembilan,01/01/2019,female,chinese,807
+Negeri Sembilan,01/01/2019,male,chinese,1064
+Negeri Sembilan,01/01/2020,female,chinese,785
+Negeri Sembilan,01/01/2020,male,chinese,1056
+Negeri Sembilan,01/01/2021,female,chinese,897
+Negeri Sembilan,01/01/2021,male,chinese,1292
+Negeri Sembilan,01/01/2022,female,chinese,901
+Negeri Sembilan,01/01/2022,male,chinese,1282
+Pahang,01/01/2015,female,chinese,564
+Pahang,01/01/2015,male,chinese,866
+Pahang,01/01/2016,female,chinese,589
+Pahang,01/01/2016,male,chinese,956
+Pahang,01/01/2017,female,chinese,608
+Pahang,01/01/2017,male,chinese,1030
+Pahang,01/01/2018,female,chinese,617
+Pahang,01/01/2018,male,chinese,973
+Pahang,01/01/2019,female,chinese,606
+Pahang,01/01/2019,male,chinese,1022
+Pahang,01/01/2020,female,chinese,616
+Pahang,01/01/2020,male,chinese,1022
+Pahang,01/01/2021,female,chinese,735
+Pahang,01/01/2021,male,chinese,1124
+Pahang,01/01/2022,female,chinese,772
+Pahang,01/01/2022,male,chinese,1167
+Perak,01/01/2015,female,chinese,2553
+Perak,01/01/2015,male,chinese,3342
+Perak,01/01/2016,female,chinese,2658
+Perak,01/01/2016,male,chinese,3458
+Perak,01/01/2017,female,chinese,2616
+Perak,01/01/2017,male,chinese,3689
+Perak,01/01/2018,female,chinese,2731
+Perak,01/01/2018,male,chinese,3753
+Perak,01/01/2019,female,chinese,2739
+Perak,01/01/2019,male,chinese,3760
+Perak,01/01/2020,female,chinese,2649
+Perak,01/01/2020,male,chinese,3637
+Perak,01/01/2021,female,chinese,3044
+Perak,01/01/2021,male,chinese,4075
+Perak,01/01/2022,female,chinese,3197
+Perak,01/01/2022,male,chinese,4310
+Perlis,01/01/2015,female,chinese,65
+Perlis,01/01/2015,male,chinese,88
+Perlis,01/01/2016,female,chinese,69
+Perlis,01/01/2016,male,chinese,105
+Perlis,01/01/2017,female,chinese,79
+Perlis,01/01/2017,male,chinese,108
+Perlis,01/01/2018,female,chinese,78
+Perlis,01/01/2018,male,chinese,104
+Perlis,01/01/2019,female,chinese,67
+Perlis,01/01/2019,male,chinese,118
+Perlis,01/01/2020,female,chinese,64
+Perlis,01/01/2020,male,chinese,114
+Perlis,01/01/2021,female,chinese,94
+Perlis,01/01/2021,male,chinese,143
+Perlis,01/01/2022,female,chinese,92
+Perlis,01/01/2022,male,chinese,142
+Pulau Pinang,01/01/2015,female,chinese,2193
+Pulau Pinang,01/01/2015,male,chinese,2958
+Pulau Pinang,01/01/2016,female,chinese,2303
+Pulau Pinang,01/01/2016,male,chinese,3038
+Pulau Pinang,01/01/2017,female,chinese,2256
+Pulau Pinang,01/01/2017,male,chinese,2956
+Pulau Pinang,01/01/2018,female,chinese,2402
+Pulau Pinang,01/01/2018,male,chinese,3099
+Pulau Pinang,01/01/2019,female,chinese,2341
+Pulau Pinang,01/01/2019,male,chinese,2984
+Pulau Pinang,01/01/2020,female,chinese,2307
+Pulau Pinang,01/01/2020,male,chinese,3027
+Pulau Pinang,01/01/2021,female,chinese,3021
+Pulau Pinang,01/01/2021,male,chinese,3717
+Pulau Pinang,01/01/2022,female,chinese,2709
+Pulau Pinang,01/01/2022,male,chinese,3604
+Sabah,01/01/2015,female,chinese,673
+Sabah,01/01/2015,male,chinese,1064
+Sabah,01/01/2016,female,chinese,786
+Sabah,01/01/2016,male,chinese,1115
+Sabah,01/01/2017,female,chinese,815
+Sabah,01/01/2017,male,chinese,1148
+Sabah,01/01/2018,female,chinese,908
+Sabah,01/01/2018,male,chinese,1234
+Sabah,01/01/2019,female,chinese,904
+Sabah,01/01/2019,male,chinese,1335
+Sabah,01/01/2020,female,chinese,892
+Sabah,01/01/2020,male,chinese,1398
+Sabah,01/01/2021,female,chinese,1055
+Sabah,01/01/2021,male,chinese,1657
+Sabah,01/01/2022,female,chinese,1093
+Sabah,01/01/2022,male,chinese,1572
+Sarawak,01/01/2015,female,chinese,1349
+Sarawak,01/01/2015,male,chinese,1806
+Sarawak,01/01/2016,female,chinese,1319
+Sarawak,01/01/2016,male,chinese,1902
+Sarawak,01/01/2017,female,chinese,1424
+Sarawak,01/01/2017,male,chinese,1996
+Sarawak,01/01/2018,female,chinese,1492
+Sarawak,01/01/2018,male,chinese,2081
+Sarawak,01/01/2019,female,chinese,1526
+Sarawak,01/01/2019,male,chinese,2083
+Sarawak,01/01/2020,female,chinese,1487
+Sarawak,01/01/2020,male,chinese,2238
+Sarawak,01/01/2021,female,chinese,1800
+Sarawak,01/01/2021,male,chinese,2680
+Sarawak,01/01/2022,female,chinese,1732
+Sarawak,01/01/2022,male,chinese,2569
+Selangor,01/01/2015,female,chinese,3294
+Selangor,01/01/2015,male,chinese,4210
+Selangor,01/01/2016,female,chinese,3302
+Selangor,01/01/2016,male,chinese,4667
+Selangor,01/01/2017,female,chinese,3617
+Selangor,01/01/2017,male,chinese,4840
+Selangor,01/01/2018,female,chinese,3547
+Selangor,01/01/2018,male,chinese,4911
+Selangor,01/01/2019,female,chinese,3719
+Selangor,01/01/2019,male,chinese,4936
+Selangor,01/01/2020,female,chinese,3521
+Selangor,01/01/2020,male,chinese,4710
+Selangor,01/01/2021,female,chinese,4884
+Selangor,01/01/2021,male,chinese,6961
+Selangor,01/01/2022,female,chinese,4380
+Selangor,01/01/2022,male,chinese,5938
+Terengganu,01/01/2015,female,chinese,80
+Terengganu,01/01/2015,male,chinese,112
+Terengganu,01/01/2016,female,chinese,75
+Terengganu,01/01/2016,male,chinese,120
+Terengganu,01/01/2017,female,chinese,73
+Terengganu,01/01/2017,male,chinese,132
+Terengganu,01/01/2018,female,chinese,81
+Terengganu,01/01/2018,male,chinese,99
+Terengganu,01/01/2019,female,chinese,92
+Terengganu,01/01/2019,male,chinese,145
+Terengganu,01/01/2020,female,chinese,67
+Terengganu,01/01/2020,male,chinese,124
+Terengganu,01/01/2021,female,chinese,85
+Terengganu,01/01/2021,male,chinese,143
+Terengganu,01/01/2022,female,chinese,100
+Terengganu,01/01/2022,male,chinese,141
+W.P. Kuala Lumpur,01/01/2015,female,chinese,1600
+W.P. Kuala Lumpur,01/01/2015,male,chinese,2104
+W.P. Kuala Lumpur,01/01/2016,female,chinese,1635
+W.P. Kuala Lumpur,01/01/2016,male,chinese,2220
+W.P. Kuala Lumpur,01/01/2017,female,chinese,1698
+W.P. Kuala Lumpur,01/01/2017,male,chinese,2224
+W.P. Kuala Lumpur,01/01/2018,female,chinese,1701
+W.P. Kuala Lumpur,01/01/2018,male,chinese,2308
+W.P. Kuala Lumpur,01/01/2019,female,chinese,1770
+W.P. Kuala Lumpur,01/01/2019,male,chinese,2439
+W.P. Kuala Lumpur,01/01/2020,female,chinese,1817
+W.P. Kuala Lumpur,01/01/2020,male,chinese,2238
+W.P. Kuala Lumpur,01/01/2021,female,chinese,2407
+W.P. Kuala Lumpur,01/01/2021,male,chinese,3385
+W.P. Kuala Lumpur,01/01/2022,female,chinese,2082
+W.P. Kuala Lumpur,01/01/2022,male,chinese,2677
+W.P. Labuan,01/01/2015,female,chinese,23
+W.P. Labuan,01/01/2015,male,chinese,22
+W.P. Labuan,01/01/2016,female,chinese,23
+W.P. Labuan,01/01/2016,male,chinese,27
+W.P. Labuan,01/01/2017,female,chinese,25
+W.P. Labuan,01/01/2017,male,chinese,34
+W.P. Labuan,01/01/2018,female,chinese,25
+W.P. Labuan,01/01/2018,male,chinese,41
+W.P. Labuan,01/01/2019,female,chinese,27
+W.P. Labuan,01/01/2019,male,chinese,36
+W.P. Labuan,01/01/2020,female,chinese,38
+W.P. Labuan,01/01/2020,male,chinese,34
+W.P. Labuan,01/01/2021,female,chinese,41
+W.P. Labuan,01/01/2021,male,chinese,52
+W.P. Labuan,01/01/2022,female,chinese,28
+W.P. Labuan,01/01/2022,male,chinese,51
+W.P. Putrajaya,01/01/2015,female,chinese,3
+W.P. Putrajaya,01/01/2015,male,chinese,1
+W.P. Putrajaya,01/01/2016,female,chinese,3
+W.P. Putrajaya,01/01/2016,male,chinese,0
+W.P. Putrajaya,01/01/2017,female,chinese,0
+W.P. Putrajaya,01/01/2017,male,chinese,2
+W.P. Putrajaya,01/01/2018,female,chinese,0
+W.P. Putrajaya,01/01/2018,male,chinese,2
+W.P. Putrajaya,01/01/2019,female,chinese,0
+W.P. Putrajaya,01/01/2019,male,chinese,2
+W.P. Putrajaya,01/01/2020,female,chinese,2
+W.P. Putrajaya,01/01/2020,male,chinese,2
+W.P. Putrajaya,01/01/2021,female,chinese,2
+W.P. Putrajaya,01/01/2021,male,chinese,2
+W.P. Putrajaya,01/01/2022,female,chinese,3
+W.P. Putrajaya,01/01/2022,male,chinese,1
+Johor,01/01/2015,female,indian,551
+Johor,01/01/2015,male,indian,927
+Johor,01/01/2016,female,indian,580
+Johor,01/01/2016,male,indian,970
+Johor,01/01/2017,female,indian,658
+Johor,01/01/2017,male,indian,1000
+Johor,01/01/2018,female,indian,652
+Johor,01/01/2018,male,indian,1056
+Johor,01/01/2019,female,indian,685
+Johor,01/01/2019,male,indian,1150
+Johor,01/01/2020,female,indian,584
+Johor,01/01/2020,male,indian,990
+Johor,01/01/2021,female,indian,879
+Johor,01/01/2021,male,indian,1180
+Johor,01/01/2022,female,indian,752
+Johor,01/01/2022,male,indian,1160
+Kedah,01/01/2015,female,indian,385
+Kedah,01/01/2015,male,indian,577
+Kedah,01/01/2016,female,indian,386
+Kedah,01/01/2016,male,indian,560
+Kedah,01/01/2017,female,indian,407
+Kedah,01/01/2017,male,indian,557
+Kedah,01/01/2018,female,indian,411
+Kedah,01/01/2018,male,indian,588
+Kedah,01/01/2019,female,indian,433
+Kedah,01/01/2019,male,indian,637
+Kedah,01/01/2020,female,indian,405
+Kedah,01/01/2020,male,indian,564
+Kedah,01/01/2021,female,indian,618
+Kedah,01/01/2021,male,indian,830
+Kedah,01/01/2022,female,indian,474
+Kedah,01/01/2022,male,indian,693
+Kelantan,01/01/2015,female,indian,9
+Kelantan,01/01/2015,male,indian,17
+Kelantan,01/01/2016,female,indian,7
+Kelantan,01/01/2016,male,indian,17
+Kelantan,01/01/2017,female,indian,14
+Kelantan,01/01/2017,male,indian,22
+Kelantan,01/01/2018,female,indian,6
+Kelantan,01/01/2018,male,indian,21
+Kelantan,01/01/2019,female,indian,9
+Kelantan,01/01/2019,male,indian,22
+Kelantan,01/01/2020,female,indian,7
+Kelantan,01/01/2020,male,indian,14
+Kelantan,01/01/2021,female,indian,12
+Kelantan,01/01/2021,male,indian,28
+Kelantan,01/01/2022,female,indian,14
+Kelantan,01/01/2022,male,indian,22
+Melaka,01/01/2015,female,indian,135
+Melaka,01/01/2015,male,indian,204
+Melaka,01/01/2016,female,indian,135
+Melaka,01/01/2016,male,indian,242
+Melaka,01/01/2017,female,indian,152
+Melaka,01/01/2017,male,indian,254
+Melaka,01/01/2018,female,indian,162
+Melaka,01/01/2018,male,indian,239
+Melaka,01/01/2019,female,indian,174
+Melaka,01/01/2019,male,indian,210
+Melaka,01/01/2020,female,indian,166
+Melaka,01/01/2020,male,indian,236
+Melaka,01/01/2021,female,indian,227
+Melaka,01/01/2021,male,indian,275
+Melaka,01/01/2022,female,indian,204
+Melaka,01/01/2022,male,indian,299
+Negeri Sembilan,01/01/2015,female,indian,402
+Negeri Sembilan,01/01/2015,male,indian,668
+Negeri Sembilan,01/01/2016,female,indian,414
+Negeri Sembilan,01/01/2016,male,indian,739
+Negeri Sembilan,01/01/2017,female,indian,487
+Negeri Sembilan,01/01/2017,male,indian,681
+Negeri Sembilan,01/01/2018,female,indian,441
+Negeri Sembilan,01/01/2018,male,indian,774
+Negeri Sembilan,01/01/2019,female,indian,471
+Negeri Sembilan,01/01/2019,male,indian,656
+Negeri Sembilan,01/01/2020,female,indian,466
+Negeri Sembilan,01/01/2020,male,indian,663
+Negeri Sembilan,01/01/2021,female,indian,651
+Negeri Sembilan,01/01/2021,male,indian,894
+Negeri Sembilan,01/01/2022,female,indian,551
+Negeri Sembilan,01/01/2022,male,indian,820
+Pahang,01/01/2015,female,indian,144
+Pahang,01/01/2015,male,indian,232
+Pahang,01/01/2016,female,indian,134
+Pahang,01/01/2016,male,indian,264
+Pahang,01/01/2017,female,indian,163
+Pahang,01/01/2017,male,indian,263
+Pahang,01/01/2018,female,indian,145
+Pahang,01/01/2018,male,indian,262
+Pahang,01/01/2019,female,indian,155
+Pahang,01/01/2019,male,indian,252
+Pahang,01/01/2020,female,indian,128
+Pahang,01/01/2020,male,indian,232
+Pahang,01/01/2021,female,indian,196
+Pahang,01/01/2021,male,indian,311
+Pahang,01/01/2022,female,indian,188
+Pahang,01/01/2022,male,indian,277
+Perak,01/01/2015,female,indian,836
+Perak,01/01/2015,male,indian,1267
+Perak,01/01/2016,female,indian,925
+Perak,01/01/2016,male,indian,1278
+Perak,01/01/2017,female,indian,839
+Perak,01/01/2017,male,indian,1308
+Perak,01/01/2018,female,indian,909
+Perak,01/01/2018,male,indian,1364
+Perak,01/01/2019,female,indian,962
+Perak,01/01/2019,male,indian,1405
+Perak,01/01/2020,female,indian,933
+Perak,01/01/2020,male,indian,1270
+Perak,01/01/2021,female,indian,1105
+Perak,01/01/2021,male,indian,1592
+Perak,01/01/2022,female,indian,1049
+Perak,01/01/2022,male,indian,1714
+Perlis,01/01/2015,female,indian,9
+Perlis,01/01/2015,male,indian,17
+Perlis,01/01/2016,female,indian,11
+Perlis,01/01/2016,male,indian,19
+Perlis,01/01/2017,female,indian,12
+Perlis,01/01/2017,male,indian,24
+Perlis,01/01/2018,female,indian,7
+Perlis,01/01/2018,male,indian,11
+Perlis,01/01/2019,female,indian,10
+Perlis,01/01/2019,male,indian,19
+Perlis,01/01/2020,female,indian,12
+Perlis,01/01/2020,male,indian,19
+Perlis,01/01/2021,female,indian,12
+Perlis,01/01/2021,male,indian,14
+Perlis,01/01/2022,female,indian,12
+Perlis,01/01/2022,male,indian,18
+Pulau Pinang,01/01/2015,female,indian,497
+Pulau Pinang,01/01/2015,male,indian,747
+Pulau Pinang,01/01/2016,female,indian,505
+Pulau Pinang,01/01/2016,male,indian,820
+Pulau Pinang,01/01/2017,female,indian,553
+Pulau Pinang,01/01/2017,male,indian,820
+Pulau Pinang,01/01/2018,female,indian,605
+Pulau Pinang,01/01/2018,male,indian,837
+Pulau Pinang,01/01/2019,female,indian,599
+Pulau Pinang,01/01/2019,male,indian,841
+Pulau Pinang,01/01/2020,female,indian,585
+Pulau Pinang,01/01/2020,male,indian,820
+Pulau Pinang,01/01/2021,female,indian,762
+Pulau Pinang,01/01/2021,male,indian,1094
+Pulau Pinang,01/01/2022,female,indian,664
+Pulau Pinang,01/01/2022,male,indian,1014
+Sabah,01/01/2015,female,indian,34
+Sabah,01/01/2015,male,indian,29
+Sabah,01/01/2016,female,indian,4
+Sabah,01/01/2016,male,indian,40
+Sabah,01/01/2017,female,indian,18
+Sabah,01/01/2017,male,indian,30
+Sabah,01/01/2018,female,indian,14
+Sabah,01/01/2018,male,indian,32
+Sabah,01/01/2019,female,indian,13
+Sabah,01/01/2019,male,indian,38
+Sabah,01/01/2020,female,indian,9
+Sabah,01/01/2020,male,indian,30
+Sabah,01/01/2021,female,indian,15
+Sabah,01/01/2021,male,indian,32
+Sabah,01/01/2022,female,indian,19
+Sabah,01/01/2022,male,indian,30
+Sarawak,01/01/2015,female,indian,8
+Sarawak,01/01/2015,male,indian,8
+Sarawak,01/01/2016,female,indian,8
+Sarawak,01/01/2016,male,indian,18
+Sarawak,01/01/2017,female,indian,7
+Sarawak,01/01/2017,male,indian,22
+Sarawak,01/01/2018,female,indian,6
+Sarawak,01/01/2018,male,indian,21
+Sarawak,01/01/2019,female,indian,10
+Sarawak,01/01/2019,male,indian,29
+Sarawak,01/01/2020,female,indian,9
+Sarawak,01/01/2020,male,indian,15
+Sarawak,01/01/2021,female,indian,7
+Sarawak,01/01/2021,male,indian,19
+Sarawak,01/01/2022,female,indian,15
+Sarawak,01/01/2022,male,indian,24
+Selangor,01/01/2015,female,indian,1517
+Selangor,01/01/2015,male,indian,2491
+Selangor,01/01/2016,female,indian,1654
+Selangor,01/01/2016,male,indian,2754
+Selangor,01/01/2017,female,indian,1773
+Selangor,01/01/2017,male,indian,2701
+Selangor,01/01/2018,female,indian,1872
+Selangor,01/01/2018,male,indian,2811
+Selangor,01/01/2019,female,indian,1897
+Selangor,01/01/2019,male,indian,2846
+Selangor,01/01/2020,female,indian,1682
+Selangor,01/01/2020,male,indian,2491
+Selangor,01/01/2021,female,indian,2848
+Selangor,01/01/2021,male,indian,4107
+Selangor,01/01/2022,female,indian,2255
+Selangor,01/01/2022,male,indian,3262
+Terengganu,01/01/2015,female,indian,2
+Terengganu,01/01/2015,male,indian,8
+Terengganu,01/01/2016,female,indian,5
+Terengganu,01/01/2016,male,indian,10
+Terengganu,01/01/2017,female,indian,3
+Terengganu,01/01/2017,male,indian,12
+Terengganu,01/01/2018,female,indian,1
+Terengganu,01/01/2018,male,indian,15
+Terengganu,01/01/2019,female,indian,1
+Terengganu,01/01/2019,male,indian,9
+Terengganu,01/01/2020,female,indian,5
+Terengganu,01/01/2020,male,indian,9
+Terengganu,01/01/2021,female,indian,4
+Terengganu,01/01/2021,male,indian,15
+Terengganu,01/01/2022,female,indian,11
+Terengganu,01/01/2022,male,indian,10
+W.P. Kuala Lumpur,01/01/2015,female,indian,378
+W.P. Kuala Lumpur,01/01/2015,male,indian,623
+W.P. Kuala Lumpur,01/01/2016,female,indian,399
+W.P. Kuala Lumpur,01/01/2016,male,indian,633
+W.P. Kuala Lumpur,01/01/2017,female,indian,462
+W.P. Kuala Lumpur,01/01/2017,male,indian,634
+W.P. Kuala Lumpur,01/01/2018,female,indian,455
+W.P. Kuala Lumpur,01/01/2018,male,indian,666
+W.P. Kuala Lumpur,01/01/2019,female,indian,465
+W.P. Kuala Lumpur,01/01/2019,male,indian,681
+W.P. Kuala Lumpur,01/01/2020,female,indian,403
+W.P. Kuala Lumpur,01/01/2020,male,indian,635
+W.P. Kuala Lumpur,01/01/2021,female,indian,711
+W.P. Kuala Lumpur,01/01/2021,male,indian,952
+W.P. Kuala Lumpur,01/01/2022,female,indian,542
+W.P. Kuala Lumpur,01/01/2022,male,indian,828
+W.P. Labuan,01/01/2015,female,indian,1
+W.P. Labuan,01/01/2015,male,indian,2
+W.P. Labuan,01/01/2016,female,indian,2
+W.P. Labuan,01/01/2016,male,indian,1
+W.P. Labuan,01/01/2017,female,indian,1
+W.P. Labuan,01/01/2017,male,indian,2
+W.P. Labuan,01/01/2018,female,indian,1
+W.P. Labuan,01/01/2018,male,indian,3
+W.P. Labuan,01/01/2019,female,indian,0
+W.P. Labuan,01/01/2019,male,indian,2
+W.P. Labuan,01/01/2020,female,indian,3
+W.P. Labuan,01/01/2020,male,indian,1
+W.P. Labuan,01/01/2021,female,indian,2
+W.P. Labuan,01/01/2021,male,indian,3
+W.P. Labuan,01/01/2022,female,indian,2
+W.P. Labuan,01/01/2022,male,indian,3
+W.P. Putrajaya,01/01/2015,female,indian,0
+W.P. Putrajaya,01/01/2015,male,indian,4
+W.P. Putrajaya,01/01/2016,female,indian,2
+W.P. Putrajaya,01/01/2016,male,indian,3
+W.P. Putrajaya,01/01/2017,female,indian,3
+W.P. Putrajaya,01/01/2017,male,indian,4
+W.P. Putrajaya,01/01/2018,female,indian,3
+W.P. Putrajaya,01/01/2018,male,indian,2
+W.P. Putrajaya,01/01/2019,female,indian,2
+W.P. Putrajaya,01/01/2019,male,indian,3
+W.P. Putrajaya,01/01/2020,female,indian,2
+W.P. Putrajaya,01/01/2020,male,indian,2
+W.P. Putrajaya,01/01/2021,female,indian,6
+W.P. Putrajaya,01/01/2021,male,indian,5
+W.P. Putrajaya,01/01/2022,female,indian,5
+W.P. Putrajaya,01/01/2022,male,indian,4
+Johor,01/01/2015,female,other_citizen,39
+Johor,01/01/2015,male,other_citizen,86
+Johor,01/01/2016,female,other_citizen,52
+Johor,01/01/2016,male,other_citizen,99
+Johor,01/01/2017,female,other_citizen,46
+Johor,01/01/2017,male,other_citizen,97
+Johor,01/01/2018,female,other_citizen,46
+Johor,01/01/2018,male,other_citizen,107
+Johor,01/01/2019,female,other_citizen,51
+Johor,01/01/2019,male,other_citizen,108
+Johor,01/01/2020,female,other_citizen,52
+Johor,01/01/2020,male,other_citizen,94
+Johor,01/01/2021,female,other_citizen,71
+Johor,01/01/2021,male,other_citizen,141
+Johor,01/01/2022,female,other_citizen,72
+Johor,01/01/2022,male,other_citizen,113
+Kedah,01/01/2015,female,other_citizen,82
+Kedah,01/01/2015,male,other_citizen,83
+Kedah,01/01/2016,female,other_citizen,84
+Kedah,01/01/2016,male,other_citizen,124
+Kedah,01/01/2017,female,other_citizen,85
+Kedah,01/01/2017,male,other_citizen,117
+Kedah,01/01/2018,female,other_citizen,90
+Kedah,01/01/2018,male,other_citizen,96
+Kedah,01/01/2019,female,other_citizen,88
+Kedah,01/01/2019,male,other_citizen,108
+Kedah,01/01/2020,female,other_citizen,76
+Kedah,01/01/2020,male,other_citizen,89
+Kedah,01/01/2021,female,other_citizen,103
+Kedah,01/01/2021,male,other_citizen,149
+Kedah,01/01/2022,female,other_citizen,109
+Kedah,01/01/2022,male,other_citizen,162
+Kelantan,01/01/2015,female,other_citizen,45
+Kelantan,01/01/2015,male,other_citizen,57
+Kelantan,01/01/2016,female,other_citizen,46
+Kelantan,01/01/2016,male,other_citizen,51
+Kelantan,01/01/2017,female,other_citizen,46
+Kelantan,01/01/2017,male,other_citizen,62
+Kelantan,01/01/2018,female,other_citizen,49
+Kelantan,01/01/2018,male,other_citizen,64
+Kelantan,01/01/2019,female,other_citizen,58
+Kelantan,01/01/2019,male,other_citizen,69
+Kelantan,01/01/2020,female,other_citizen,59
+Kelantan,01/01/2020,male,other_citizen,60
+Kelantan,01/01/2021,female,other_citizen,63
+Kelantan,01/01/2021,male,other_citizen,67
+Kelantan,01/01/2022,female,other_citizen,58
+Kelantan,01/01/2022,male,other_citizen,71
+Melaka,01/01/2015,female,other_citizen,21
+Melaka,01/01/2015,male,other_citizen,19
+Melaka,01/01/2016,female,other_citizen,12
+Melaka,01/01/2016,male,other_citizen,24
+Melaka,01/01/2017,female,other_citizen,23
+Melaka,01/01/2017,male,other_citizen,31
+Melaka,01/01/2018,female,other_citizen,15
+Melaka,01/01/2018,male,other_citizen,32
+Melaka,01/01/2019,female,other_citizen,22
+Melaka,01/01/2019,male,other_citizen,24
+Melaka,01/01/2020,female,other_citizen,16
+Melaka,01/01/2020,male,other_citizen,25
+Melaka,01/01/2021,female,other_citizen,24
+Melaka,01/01/2021,male,other_citizen,38
+Melaka,01/01/2022,female,other_citizen,25
+Melaka,01/01/2022,male,other_citizen,37
+Negeri Sembilan,01/01/2015,female,other_citizen,12
+Negeri Sembilan,01/01/2015,male,other_citizen,15
+Negeri Sembilan,01/01/2016,female,other_citizen,13
+Negeri Sembilan,01/01/2016,male,other_citizen,25
+Negeri Sembilan,01/01/2017,female,other_citizen,16
+Negeri Sembilan,01/01/2017,male,other_citizen,23
+Negeri Sembilan,01/01/2018,female,other_citizen,13
+Negeri Sembilan,01/01/2018,male,other_citizen,25
+Negeri Sembilan,01/01/2019,female,other_citizen,13
+Negeri Sembilan,01/01/2019,male,other_citizen,29
+Negeri Sembilan,01/01/2020,female,other_citizen,12
+Negeri Sembilan,01/01/2020,male,other_citizen,20
+Negeri Sembilan,01/01/2021,female,other_citizen,22
+Negeri Sembilan,01/01/2021,male,other_citizen,32
+Negeri Sembilan,01/01/2022,female,other_citizen,11
+Negeri Sembilan,01/01/2022,male,other_citizen,30
+Pahang,01/01/2015,female,other_citizen,11
+Pahang,01/01/2015,male,other_citizen,31
+Pahang,01/01/2016,female,other_citizen,14
+Pahang,01/01/2016,male,other_citizen,21
+Pahang,01/01/2017,female,other_citizen,15
+Pahang,01/01/2017,male,other_citizen,34
+Pahang,01/01/2018,female,other_citizen,17
+Pahang,01/01/2018,male,other_citizen,25
+Pahang,01/01/2019,female,other_citizen,18
+Pahang,01/01/2019,male,other_citizen,24
+Pahang,01/01/2020,female,other_citizen,20
+Pahang,01/01/2020,male,other_citizen,17
+Pahang,01/01/2021,female,other_citizen,17
+Pahang,01/01/2021,male,other_citizen,27
+Pahang,01/01/2022,female,other_citizen,28
+Pahang,01/01/2022,male,other_citizen,25
+Perak,01/01/2015,female,other_citizen,22
+Perak,01/01/2015,male,other_citizen,34
+Perak,01/01/2016,female,other_citizen,28
+Perak,01/01/2016,male,other_citizen,40
+Perak,01/01/2017,female,other_citizen,24
+Perak,01/01/2017,male,other_citizen,41
+Perak,01/01/2018,female,other_citizen,23
+Perak,01/01/2018,male,other_citizen,49
+Perak,01/01/2019,female,other_citizen,37
+Perak,01/01/2019,male,other_citizen,28
+Perak,01/01/2020,female,other_citizen,29
+Perak,01/01/2020,male,other_citizen,37
+Perak,01/01/2021,female,other_citizen,39
+Perak,01/01/2021,male,other_citizen,37
+Perak,01/01/2022,female,other_citizen,34
+Perak,01/01/2022,male,other_citizen,53
+Perlis,01/01/2015,female,other_citizen,16
+Perlis,01/01/2015,male,other_citizen,26
+Perlis,01/01/2016,female,other_citizen,14
+Perlis,01/01/2016,male,other_citizen,16
+Perlis,01/01/2017,female,other_citizen,24
+Perlis,01/01/2017,male,other_citizen,21
+Perlis,01/01/2018,female,other_citizen,28
+Perlis,01/01/2018,male,other_citizen,25
+Perlis,01/01/2019,female,other_citizen,26
+Perlis,01/01/2019,male,other_citizen,21
+Perlis,01/01/2020,female,other_citizen,15
+Perlis,01/01/2020,male,other_citizen,19
+Perlis,01/01/2021,female,other_citizen,17
+Perlis,01/01/2021,male,other_citizen,34
+Perlis,01/01/2022,female,other_citizen,23
+Perlis,01/01/2022,male,other_citizen,26
+Pulau Pinang,01/01/2015,female,other_citizen,14
+Pulau Pinang,01/01/2015,male,other_citizen,16
+Pulau Pinang,01/01/2016,female,other_citizen,17
+Pulau Pinang,01/01/2016,male,other_citizen,12
+Pulau Pinang,01/01/2017,female,other_citizen,20
+Pulau Pinang,01/01/2017,male,other_citizen,20
+Pulau Pinang,01/01/2018,female,other_citizen,14
+Pulau Pinang,01/01/2018,male,other_citizen,16
+Pulau Pinang,01/01/2019,female,other_citizen,18
+Pulau Pinang,01/01/2019,male,other_citizen,23
+Pulau Pinang,01/01/2020,female,other_citizen,14
+Pulau Pinang,01/01/2020,male,other_citizen,26
+Pulau Pinang,01/01/2021,female,other_citizen,24
+Pulau Pinang,01/01/2021,male,other_citizen,22
+Pulau Pinang,01/01/2022,female,other_citizen,35
+Pulau Pinang,01/01/2022,male,other_citizen,19
+Sabah,01/01/2015,female,other_citizen,91
+Sabah,01/01/2015,male,other_citizen,163
+Sabah,01/01/2016,female,other_citizen,140
+Sabah,01/01/2016,male,other_citizen,215
+Sabah,01/01/2017,female,other_citizen,161
+Sabah,01/01/2017,male,other_citizen,175
+Sabah,01/01/2018,female,other_citizen,134
+Sabah,01/01/2018,male,other_citizen,253
+Sabah,01/01/2019,female,other_citizen,216
+Sabah,01/01/2019,male,other_citizen,364
+Sabah,01/01/2020,female,other_citizen,170
+Sabah,01/01/2020,male,other_citizen,282
+Sabah,01/01/2021,female,other_citizen,234
+Sabah,01/01/2021,male,other_citizen,273
+Sabah,01/01/2022,female,other_citizen,249
+Sabah,01/01/2022,male,other_citizen,303
+Sarawak,01/01/2015,female,other_citizen,7
+Sarawak,01/01/2015,male,other_citizen,6
+Sarawak,01/01/2016,female,other_citizen,8
+Sarawak,01/01/2016,male,other_citizen,11
+Sarawak,01/01/2017,female,other_citizen,4
+Sarawak,01/01/2017,male,other_citizen,12
+Sarawak,01/01/2018,female,other_citizen,12
+Sarawak,01/01/2018,male,other_citizen,12
+Sarawak,01/01/2019,female,other_citizen,12
+Sarawak,01/01/2019,male,other_citizen,9
+Sarawak,01/01/2020,female,other_citizen,11
+Sarawak,01/01/2020,male,other_citizen,7
+Sarawak,01/01/2021,female,other_citizen,11
+Sarawak,01/01/2021,male,other_citizen,14
+Sarawak,01/01/2022,female,other_citizen,4
+Sarawak,01/01/2022,male,other_citizen,11
+Selangor,01/01/2015,female,other_citizen,99
+Selangor,01/01/2015,male,other_citizen,164
+Selangor,01/01/2016,female,other_citizen,124
+Selangor,01/01/2016,male,other_citizen,195
+Selangor,01/01/2017,female,other_citizen,133
+Selangor,01/01/2017,male,other_citizen,191
+Selangor,01/01/2018,female,other_citizen,144
+Selangor,01/01/2018,male,other_citizen,211
+Selangor,01/01/2019,female,other_citizen,113
+Selangor,01/01/2019,male,other_citizen,198
+Selangor,01/01/2020,female,other_citizen,139
+Selangor,01/01/2020,male,other_citizen,202
+Selangor,01/01/2021,female,other_citizen,245
+Selangor,01/01/2021,male,other_citizen,343
+Selangor,01/01/2022,female,other_citizen,145
+Selangor,01/01/2022,male,other_citizen,245
+Terengganu,01/01/2015,female,other_citizen,8
+Terengganu,01/01/2015,male,other_citizen,10
+Terengganu,01/01/2016,female,other_citizen,12
+Terengganu,01/01/2016,male,other_citizen,6
+Terengganu,01/01/2017,female,other_citizen,4
+Terengganu,01/01/2017,male,other_citizen,10
+Terengganu,01/01/2018,female,other_citizen,7
+Terengganu,01/01/2018,male,other_citizen,10
+Terengganu,01/01/2019,female,other_citizen,7
+Terengganu,01/01/2019,male,other_citizen,6
+Terengganu,01/01/2020,female,other_citizen,5
+Terengganu,01/01/2020,male,other_citizen,11
+Terengganu,01/01/2021,female,other_citizen,13
+Terengganu,01/01/2021,male,other_citizen,8
+Terengganu,01/01/2022,female,other_citizen,6
+Terengganu,01/01/2022,male,other_citizen,9
+W.P. Kuala Lumpur,01/01/2015,female,other_citizen,33
+W.P. Kuala Lumpur,01/01/2015,male,other_citizen,49
+W.P. Kuala Lumpur,01/01/2016,female,other_citizen,30
+W.P. Kuala Lumpur,01/01/2016,male,other_citizen,62
+W.P. Kuala Lumpur,01/01/2017,female,other_citizen,38
+W.P. Kuala Lumpur,01/01/2017,male,other_citizen,57
+W.P. Kuala Lumpur,01/01/2018,female,other_citizen,38
+W.P. Kuala Lumpur,01/01/2018,male,other_citizen,60
+W.P. Kuala Lumpur,01/01/2019,female,other_citizen,37
+W.P. Kuala Lumpur,01/01/2019,male,other_citizen,45
+W.P. Kuala Lumpur,01/01/2020,female,other_citizen,33
+W.P. Kuala Lumpur,01/01/2020,male,other_citizen,61
+W.P. Kuala Lumpur,01/01/2021,female,other_citizen,59
+W.P. Kuala Lumpur,01/01/2021,male,other_citizen,129
+W.P. Kuala Lumpur,01/01/2022,female,other_citizen,44
+W.P. Kuala Lumpur,01/01/2022,male,other_citizen,65
+W.P. Labuan,01/01/2015,female,other_citizen,2
+W.P. Labuan,01/01/2015,male,other_citizen,8
+W.P. Labuan,01/01/2016,female,other_citizen,2
+W.P. Labuan,01/01/2016,male,other_citizen,2
+W.P. Labuan,01/01/2017,female,other_citizen,4
+W.P. Labuan,01/01/2017,male,other_citizen,6
+W.P. Labuan,01/01/2018,female,other_citizen,2
+W.P. Labuan,01/01/2018,male,other_citizen,6
+W.P. Labuan,01/01/2019,female,other_citizen,7
+W.P. Labuan,01/01/2019,male,other_citizen,6
+W.P. Labuan,01/01/2020,female,other_citizen,1
+W.P. Labuan,01/01/2020,male,other_citizen,10
+W.P. Labuan,01/01/2021,female,other_citizen,7
+W.P. Labuan,01/01/2021,male,other_citizen,10
+W.P. Labuan,01/01/2022,female,other_citizen,2
+W.P. Labuan,01/01/2022,male,other_citizen,8
+W.P. Putrajaya,01/01/2015,female,other_citizen,0
+W.P. Putrajaya,01/01/2015,male,other_citizen,2
+W.P. Putrajaya,01/01/2016,female,other_citizen,0
+W.P. Putrajaya,01/01/2016,male,other_citizen,1
+W.P. Putrajaya,01/01/2017,female,other_citizen,1
+W.P. Putrajaya,01/01/2017,male,other_citizen,2
+W.P. Putrajaya,01/01/2018,female,other_citizen,0
+W.P. Putrajaya,01/01/2018,male,other_citizen,2
+W.P. Putrajaya,01/01/2019,female,other_citizen,0
+W.P. Putrajaya,01/01/2019,male,other_citizen,0
+W.P. Putrajaya,01/01/2020,female,other_citizen,0
+W.P. Putrajaya,01/01/2020,male,other_citizen,0
+W.P. Putrajaya,01/01/2021,female,other_citizen,1
+W.P. Putrajaya,01/01/2021,male,other_citizen,0
+W.P. Putrajaya,01/01/2022,female,other_citizen,1
+W.P. Putrajaya,01/01/2022,male,other_citizen,1
+Johor,01/01/2015,female,other_noncitizen,167
+Johor,01/01/2015,male,other_noncitizen,266
+Johor,01/01/2016,female,other_noncitizen,182
+Johor,01/01/2016,male,other_noncitizen,305
+Johor,01/01/2017,female,other_noncitizen,185
+Johor,01/01/2017,male,other_noncitizen,295
+Johor,01/01/2018,female,other_noncitizen,194
+Johor,01/01/2018,male,other_noncitizen,304
+Johor,01/01/2019,female,other_noncitizen,175
+Johor,01/01/2019,male,other_noncitizen,312
+Johor,01/01/2020,female,other_noncitizen,150
+Johor,01/01/2020,male,other_noncitizen,268
+Johor,01/01/2021,female,other_noncitizen,360
+Johor,01/01/2021,male,other_noncitizen,605
+Johor,01/01/2022,female,other_noncitizen,171
+Johor,01/01/2022,male,other_noncitizen,373
+Kedah,01/01/2015,female,other_noncitizen,59
+Kedah,01/01/2015,male,other_noncitizen,49
+Kedah,01/01/2016,female,other_noncitizen,48
+Kedah,01/01/2016,male,other_noncitizen,63
+Kedah,01/01/2017,female,other_noncitizen,60
+Kedah,01/01/2017,male,other_noncitizen,67
+Kedah,01/01/2018,female,other_noncitizen,49
+Kedah,01/01/2018,male,other_noncitizen,66
+Kedah,01/01/2019,female,other_noncitizen,67
+Kedah,01/01/2019,male,other_noncitizen,48
+Kedah,01/01/2020,female,other_noncitizen,52
+Kedah,01/01/2020,male,other_noncitizen,50
+Kedah,01/01/2021,female,other_noncitizen,78
+Kedah,01/01/2021,male,other_noncitizen,89
+Kedah,01/01/2022,female,other_noncitizen,55
+Kedah,01/01/2022,male,other_noncitizen,62
+Kelantan,01/01/2015,female,other_noncitizen,24
+Kelantan,01/01/2015,male,other_noncitizen,16
+Kelantan,01/01/2016,female,other_noncitizen,30
+Kelantan,01/01/2016,male,other_noncitizen,21
+Kelantan,01/01/2017,female,other_noncitizen,29
+Kelantan,01/01/2017,male,other_noncitizen,33
+Kelantan,01/01/2018,female,other_noncitizen,35
+Kelantan,01/01/2018,male,other_noncitizen,28
+Kelantan,01/01/2019,female,other_noncitizen,37
+Kelantan,01/01/2019,male,other_noncitizen,23
+Kelantan,01/01/2020,female,other_noncitizen,23
+Kelantan,01/01/2020,male,other_noncitizen,26
+Kelantan,01/01/2021,female,other_noncitizen,59
+Kelantan,01/01/2021,male,other_noncitizen,46
+Kelantan,01/01/2022,female,other_noncitizen,41
+Kelantan,01/01/2022,male,other_noncitizen,39
+Melaka,01/01/2015,female,other_noncitizen,34
+Melaka,01/01/2015,male,other_noncitizen,38
+Melaka,01/01/2016,female,other_noncitizen,36
+Melaka,01/01/2016,male,other_noncitizen,48
+Melaka,01/01/2017,female,other_noncitizen,40
+Melaka,01/01/2017,male,other_noncitizen,52
+Melaka,01/01/2018,female,other_noncitizen,30
+Melaka,01/01/2018,male,other_noncitizen,47
+Melaka,01/01/2019,female,other_noncitizen,38
+Melaka,01/01/2019,male,other_noncitizen,34
+Melaka,01/01/2020,female,other_noncitizen,17
+Melaka,01/01/2020,male,other_noncitizen,46
+Melaka,01/01/2021,female,other_noncitizen,41
+Melaka,01/01/2021,male,other_noncitizen,92
+Melaka,01/01/2022,female,other_noncitizen,23
+Melaka,01/01/2022,male,other_noncitizen,44
+Negeri Sembilan,01/01/2015,female,other_noncitizen,44
+Negeri Sembilan,01/01/2015,male,other_noncitizen,73
+Negeri Sembilan,01/01/2016,female,other_noncitizen,56
+Negeri Sembilan,01/01/2016,male,other_noncitizen,51
+Negeri Sembilan,01/01/2017,female,other_noncitizen,63
+Negeri Sembilan,01/01/2017,male,other_noncitizen,61
+Negeri Sembilan,01/01/2018,female,other_noncitizen,58
+Negeri Sembilan,01/01/2018,male,other_noncitizen,55
+Negeri Sembilan,01/01/2019,female,other_noncitizen,39
+Negeri Sembilan,01/01/2019,male,other_noncitizen,53
+Negeri Sembilan,01/01/2020,female,other_noncitizen,34
+Negeri Sembilan,01/01/2020,male,other_noncitizen,57
+Negeri Sembilan,01/01/2021,female,other_noncitizen,70
+Negeri Sembilan,01/01/2021,male,other_noncitizen,112
+Negeri Sembilan,01/01/2022,female,other_noncitizen,56
+Negeri Sembilan,01/01/2022,male,other_noncitizen,61
+Pahang,01/01/2015,female,other_noncitizen,53
+Pahang,01/01/2015,male,other_noncitizen,88
+Pahang,01/01/2016,female,other_noncitizen,47
+Pahang,01/01/2016,male,other_noncitizen,86
+Pahang,01/01/2017,female,other_noncitizen,42
+Pahang,01/01/2017,male,other_noncitizen,90
+Pahang,01/01/2018,female,other_noncitizen,46
+Pahang,01/01/2018,male,other_noncitizen,109
+Pahang,01/01/2019,female,other_noncitizen,54
+Pahang,01/01/2019,male,other_noncitizen,99
+Pahang,01/01/2020,female,other_noncitizen,49
+Pahang,01/01/2020,male,other_noncitizen,95
+Pahang,01/01/2021,female,other_noncitizen,62
+Pahang,01/01/2021,male,other_noncitizen,118
+Pahang,01/01/2022,female,other_noncitizen,48
+Pahang,01/01/2022,male,other_noncitizen,112
+Perak,01/01/2015,female,other_noncitizen,135
+Perak,01/01/2015,male,other_noncitizen,142
+Perak,01/01/2016,female,other_noncitizen,154
+Perak,01/01/2016,male,other_noncitizen,126
+Perak,01/01/2017,female,other_noncitizen,125
+Perak,01/01/2017,male,other_noncitizen,127
+Perak,01/01/2018,female,other_noncitizen,110
+Perak,01/01/2018,male,other_noncitizen,110
+Perak,01/01/2019,female,other_noncitizen,160
+Perak,01/01/2019,male,other_noncitizen,102
+Perak,01/01/2020,female,other_noncitizen,121
+Perak,01/01/2020,male,other_noncitizen,118
+Perak,01/01/2021,female,other_noncitizen,151
+Perak,01/01/2021,male,other_noncitizen,130
+Perak,01/01/2022,female,other_noncitizen,122
+Perak,01/01/2022,male,other_noncitizen,115
+Perlis,01/01/2015,female,other_noncitizen,13
+Perlis,01/01/2015,male,other_noncitizen,5
+Perlis,01/01/2016,female,other_noncitizen,12
+Perlis,01/01/2016,male,other_noncitizen,8
+Perlis,01/01/2017,female,other_noncitizen,8
+Perlis,01/01/2017,male,other_noncitizen,15
+Perlis,01/01/2018,female,other_noncitizen,12
+Perlis,01/01/2018,male,other_noncitizen,4
+Perlis,01/01/2019,female,other_noncitizen,13
+Perlis,01/01/2019,male,other_noncitizen,5
+Perlis,01/01/2020,female,other_noncitizen,9
+Perlis,01/01/2020,male,other_noncitizen,6
+Perlis,01/01/2021,female,other_noncitizen,12
+Perlis,01/01/2021,male,other_noncitizen,5
+Perlis,01/01/2022,female,other_noncitizen,9
+Perlis,01/01/2022,male,other_noncitizen,6
+Pulau Pinang,01/01/2015,female,other_noncitizen,94
+Pulau Pinang,01/01/2015,male,other_noncitizen,61
+Pulau Pinang,01/01/2016,female,other_noncitizen,92
+Pulau Pinang,01/01/2016,male,other_noncitizen,82
+Pulau Pinang,01/01/2017,female,other_noncitizen,59
+Pulau Pinang,01/01/2017,male,other_noncitizen,72
+Pulau Pinang,01/01/2018,female,other_noncitizen,79
+Pulau Pinang,01/01/2018,male,other_noncitizen,66
+Pulau Pinang,01/01/2019,female,other_noncitizen,62
+Pulau Pinang,01/01/2019,male,other_noncitizen,68
+Pulau Pinang,01/01/2020,female,other_noncitizen,66
+Pulau Pinang,01/01/2020,male,other_noncitizen,60
+Pulau Pinang,01/01/2021,female,other_noncitizen,153
+Pulau Pinang,01/01/2021,male,other_noncitizen,181
+Pulau Pinang,01/01/2022,female,other_noncitizen,76
+Pulau Pinang,01/01/2022,male,other_noncitizen,69
+Sabah,01/01/2015,female,other_noncitizen,720
+Sabah,01/01/2015,male,other_noncitizen,1062
+Sabah,01/01/2016,female,other_noncitizen,282
+Sabah,01/01/2016,male,other_noncitizen,354
+Sabah,01/01/2017,female,other_noncitizen,479
+Sabah,01/01/2017,male,other_noncitizen,377
+Sabah,01/01/2018,female,other_noncitizen,247
+Sabah,01/01/2018,male,other_noncitizen,387
+Sabah,01/01/2019,female,other_noncitizen,215
+Sabah,01/01/2019,male,other_noncitizen,326
+Sabah,01/01/2020,female,other_noncitizen,204
+Sabah,01/01/2020,male,other_noncitizen,367
+Sabah,01/01/2021,female,other_noncitizen,576
+Sabah,01/01/2021,male,other_noncitizen,642
+Sabah,01/01/2022,female,other_noncitizen,303
+Sabah,01/01/2022,male,other_noncitizen,406
+Sarawak,01/01/2015,female,other_noncitizen,23
+Sarawak,01/01/2015,male,other_noncitizen,37
+Sarawak,01/01/2016,female,other_noncitizen,34
+Sarawak,01/01/2016,male,other_noncitizen,28
+Sarawak,01/01/2017,female,other_noncitizen,29
+Sarawak,01/01/2017,male,other_noncitizen,39
+Sarawak,01/01/2018,female,other_noncitizen,29
+Sarawak,01/01/2018,male,other_noncitizen,33
+Sarawak,01/01/2019,female,other_noncitizen,21
+Sarawak,01/01/2019,male,other_noncitizen,40
+Sarawak,01/01/2020,female,other_noncitizen,26
+Sarawak,01/01/2020,male,other_noncitizen,32
+Sarawak,01/01/2021,female,other_noncitizen,31
+Sarawak,01/01/2021,male,other_noncitizen,54
+Sarawak,01/01/2022,female,other_noncitizen,41
+Sarawak,01/01/2022,male,other_noncitizen,48
+Selangor,01/01/2015,female,other_noncitizen,370
+Selangor,01/01/2015,male,other_noncitizen,456
+Selangor,01/01/2016,female,other_noncitizen,443
+Selangor,01/01/2016,male,other_noncitizen,493
+Selangor,01/01/2017,female,other_noncitizen,429
+Selangor,01/01/2017,male,other_noncitizen,495
+Selangor,01/01/2018,female,other_noncitizen,370
+Selangor,01/01/2018,male,other_noncitizen,488
+Selangor,01/01/2019,female,other_noncitizen,383
+Selangor,01/01/2019,male,other_noncitizen,539
+Selangor,01/01/2020,female,other_noncitizen,342
+Selangor,01/01/2020,male,other_noncitizen,411
+Selangor,01/01/2021,female,other_noncitizen,1234
+Selangor,01/01/2021,male,other_noncitizen,1821
+Selangor,01/01/2022,female,other_noncitizen,425
+Selangor,01/01/2022,male,other_noncitizen,535
+Terengganu,01/01/2015,female,other_noncitizen,6
+Terengganu,01/01/2015,male,other_noncitizen,23
+Terengganu,01/01/2016,female,other_noncitizen,17
+Terengganu,01/01/2016,male,other_noncitizen,24
+Terengganu,01/01/2017,female,other_noncitizen,12
+Terengganu,01/01/2017,male,other_noncitizen,22
+Terengganu,01/01/2018,female,other_noncitizen,21
+Terengganu,01/01/2018,male,other_noncitizen,22
+Terengganu,01/01/2019,female,other_noncitizen,10
+Terengganu,01/01/2019,male,other_noncitizen,16
+Terengganu,01/01/2020,female,other_noncitizen,10
+Terengganu,01/01/2020,male,other_noncitizen,21
+Terengganu,01/01/2021,female,other_noncitizen,20
+Terengganu,01/01/2021,male,other_noncitizen,31
+Terengganu,01/01/2022,female,other_noncitizen,27
+Terengganu,01/01/2022,male,other_noncitizen,23
+W.P. Kuala Lumpur,01/01/2015,female,other_noncitizen,155
+W.P. Kuala Lumpur,01/01/2015,male,other_noncitizen,172
+W.P. Kuala Lumpur,01/01/2016,female,other_noncitizen,148
+W.P. Kuala Lumpur,01/01/2016,male,other_noncitizen,164
+W.P. Kuala Lumpur,01/01/2017,female,other_noncitizen,153
+W.P. Kuala Lumpur,01/01/2017,male,other_noncitizen,202
+W.P. Kuala Lumpur,01/01/2018,female,other_noncitizen,155
+W.P. Kuala Lumpur,01/01/2018,male,other_noncitizen,199
+W.P. Kuala Lumpur,01/01/2019,female,other_noncitizen,137
+W.P. Kuala Lumpur,01/01/2019,male,other_noncitizen,199
+W.P. Kuala Lumpur,01/01/2020,female,other_noncitizen,101
+W.P. Kuala Lumpur,01/01/2020,male,other_noncitizen,160
+W.P. Kuala Lumpur,01/01/2021,female,other_noncitizen,467
+W.P. Kuala Lumpur,01/01/2021,male,other_noncitizen,617
+W.P. Kuala Lumpur,01/01/2022,female,other_noncitizen,158
+W.P. Kuala Lumpur,01/01/2022,male,other_noncitizen,212
+W.P. Labuan,01/01/2015,female,other_noncitizen,4
+W.P. Labuan,01/01/2015,male,other_noncitizen,3
+W.P. Labuan,01/01/2016,female,other_noncitizen,13
+W.P. Labuan,01/01/2016,male,other_noncitizen,13
+W.P. Labuan,01/01/2017,female,other_noncitizen,6
+W.P. Labuan,01/01/2017,male,other_noncitizen,4
+W.P. Labuan,01/01/2018,female,other_noncitizen,4
+W.P. Labuan,01/01/2018,male,other_noncitizen,11
+W.P. Labuan,01/01/2019,female,other_noncitizen,12
+W.P. Labuan,01/01/2019,male,other_noncitizen,15
+W.P. Labuan,01/01/2020,female,other_noncitizen,13
+W.P. Labuan,01/01/2020,male,other_noncitizen,17
+W.P. Labuan,01/01/2021,female,other_noncitizen,27
+W.P. Labuan,01/01/2021,male,other_noncitizen,32
+W.P. Labuan,01/01/2022,female,other_noncitizen,12
+W.P. Labuan,01/01/2022,male,other_noncitizen,15
+W.P. Putrajaya,01/01/2015,female,other_noncitizen,1
+W.P. Putrajaya,01/01/2015,male,other_noncitizen,0
+W.P. Putrajaya,01/01/2016,female,other_noncitizen,0
+W.P. Putrajaya,01/01/2016,male,other_noncitizen,1
+W.P. Putrajaya,01/01/2017,female,other_noncitizen,1
+W.P. Putrajaya,01/01/2017,male,other_noncitizen,0
+W.P. Putrajaya,01/01/2018,female,other_noncitizen,0
+W.P. Putrajaya,01/01/2018,male,other_noncitizen,0
+W.P. Putrajaya,01/01/2019,female,other_noncitizen,1
+W.P. Putrajaya,01/01/2019,male,other_noncitizen,1
+W.P. Putrajaya,01/01/2020,female,other_noncitizen,1
+W.P. Putrajaya,01/01/2020,male,other_noncitizen,0
+W.P. Putrajaya,01/01/2021,female,other_noncitizen,0
+W.P. Putrajaya,01/01/2021,male,other_noncitizen,1
+W.P. Putrajaya,01/01/2022,female,other_noncitizen,0
+W.P. Putrajaya,01/01/2022,male,other_noncitizen,5

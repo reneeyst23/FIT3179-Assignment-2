@@ -1,0 +1,131 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/death_sex_ethnic_state.csv"},
+    "width": 550, "height": 300,
+    "resolve": {"scale": {"color": "independent"}},
+    "params": [
+        {
+            "name": "state_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Perlis",
+                    "Pulau Pinang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "W.P. Kuala Lumpur",
+                    "W.P. Labuan",
+                    "W.P. Putrajaya"
+                ],
+                "labels": [
+                    "Johor",
+                    "Kedah",
+                    "Kelantan",
+                    "Melaka",
+                    "Negeri Sembilan",
+                    "Pahang",
+                    "Perak",
+                    "Perlis",
+                    "Pulau Pinang",
+                    "Sabah",
+                    "Sarawak",
+                    "Selangor",
+                    "Terengganu",
+                    "W.P. Kuala Lumpur",
+                    "W.P. Labuan",
+                    "W.P. Putrajaya"
+                ],
+                "name": "State: "
+            },
+            "value": "Johor"
+        }
+    ],
+    "transform": [
+        {
+            "lookup": "sex",
+            "from": {
+                "data": {
+                    "values": [
+                        { "sex": "male", "gender": "Male" },
+                        { "sex": "female", "gender": "Female" }
+                    ]
+                },
+                "key": "sex",
+                "fields": ["gender"]
+            }
+        },
+        {
+            "calculate": "utcParse(datum.date, '%d/%m/%Y')",  
+            "as": "parsed_date"
+        },
+        {
+            "calculate": "year(datum.parsed_date)",
+            "as": "year"
+        },
+        {
+            "filter": "datum.state == state_selection"
+        }
+    ],
+    "encoding": {
+        "x": { 
+            "field": "year", 
+            "type": "ordinal", 
+            "stack": "zero",
+            "title": "Year"
+        },
+        "y": {
+            "aggregate": "sum",
+            "field": "abs", 
+            "type": "quantitative",
+            "title": "Total Deaths"
+        },
+        "color": {
+            "field": "gender", 
+            "type": "nominal",
+            "legend": {
+                "title": null,
+                "orient": "top"
+            }
+        }
+    },
+    "layer": [
+        {
+            "mark": "bar",
+            "encoding": {
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"field": "gender", "type":"nominal", "title": "Gender"},
+                    {"field": "abs", "aggregate": "sum", "type": "quantitative", "title": "Number of Death"},
+                    {"field": "year", "type": "ordinal", "title": "Year"}
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "middle",
+                "dy": -10
+            },
+            "encoding": {
+                "text": {
+                    "aggregate": "sum",
+                    "field": "abs",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "value": "black"
+                }
+            }
+        }
+    ]
+}
