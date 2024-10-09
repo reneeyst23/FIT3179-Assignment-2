@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/death_sex_ethnic_state.csv"},
+    "data": {"url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv"},
     "width": 550, "height": 300,
     "resolve": {"scale": {"color": "independent"}},
     "params": [

@@ -17,7 +17,7 @@
     "layer": [
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/map.json",  
+                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/map.json",  
                 "format": {"type": "topojson", "feature": "1"}
             },
             "mark": {
@@ -28,7 +28,7 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/my-3.json",  
+                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/my-3.json",  
                 "format": {"type": "topojson", "feature": "my"}
             },
             "transform": [
@@ -36,7 +36,7 @@
                     "lookup": "properties.name",  
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Week-10/refs/heads/main/data/death_state.csv",  
+                            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_state.csv",  
                             "format": {"type": "csv"}
                         },
                         "key": "state",  
