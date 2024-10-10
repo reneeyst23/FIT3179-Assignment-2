@@ -3,7 +3,7 @@
     "config": {
         "style": {
             "tooltip": {
-                "align": "left"
+                "align": "center"
             }
         }
     },

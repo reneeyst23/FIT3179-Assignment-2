@@ -6,20 +6,20 @@
     "signals": [
         {
             "name": "selectedDate",
-            "value": "01/01/2015",
+            "value": 2015,
             "bind": {
                 "input": "select",
                 "options": [
-                    "01/01/2015",
-                    "01/01/2016",
-                    "01/01/2017",
-                    "01/01/2018",
-                    "01/01/2019",
-                    "01/01/2020",
-                    "01/01/2021",
-                    "01/01/2022"
+                    2015,
+                    2016,
+                    2017,
+                    2018,
+                    2019,
+                    2020,
+                    2021,
+                    2022
                 ],
-                "name": "Select Date: "
+                "name": "Year: "
             }
         }
     ],
@@ -29,12 +29,14 @@
             "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/deaths_early_childhood_state.csv",
             "format": { "type": "csv" },
             "transform": [
+                { "type": "formula", "as": "parsed_date", "expr": "utcParse(datum.date, '%d/%m/%Y')" },
+                { "type": "formula", "as": "year", "expr": "year(datum.parsed_date)" },
                 { "type": "formula", "as": "value", "expr": "datum.abs" },
                 { "type": "formula", "as": "source", "expr": "datum.state" },
                 { "type": "formula", "as": "target", "expr": "datum.type" },
                 {
                     "type": "filter",
-                    "expr": "datum.date === selectedDate"
+                    "expr": "datum.year === selectedDate"
                 }
             ]
         },
@@ -100,14 +102,14 @@
             "name": "ySource",
             "type": "band",
             "domain": { "data": "sourceNodes", "field": "sourceID" },
-            "range": [0, 600],
+            "range": [0, 650],
             "padding": 0.2
         },
         {
             "name": "yTarget",
             "type": "band",
             "domain": { "data": "targetNodes", "field": "targetID" },
-            "range": [0, 600],
+            "range": [0, 650],
             "padding": 0.1
         },
         {
@@ -129,10 +131,10 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 100 },
+                    "x": { "value": 50 },
                     "y": { "scale": "ySource", "field": "sourceID" },
                     "width": { "value": 110 },
-                    "height": { "scale": "ySource", "band": 1 },
+                    "height": { "scale": "ySource", "band": 1.5 },
                     "fill": { "scale": "color", "field": "source" },
                     "tooltip": { "signal": "datum.source || datum.target" }
                 }
@@ -143,7 +145,7 @@
             "from": { "data": "targetNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 650 },
+                    "x": { "value": 1035 },
                     "y": { "scale": "yTarget", "field": "targetID" },
                     "width": { "value": 80 },
                     "height": { "scale": "yTarget", "band": 1 },
@@ -158,7 +160,7 @@
             "encode": {
             "update": {
                     "path": {
-                        "signal": "'M' + 170 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 500 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 550 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 650 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
+                        "signal": "'M' + 130 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 800 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 850 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 1035 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
                     },
                     "stroke": { "scale": "color", "field": "source" },
                     "strokeWidth": { "signal": "scale('linkWidth', datum.value)" },
@@ -174,7 +176,7 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 155 },
+                    "x": { "value": 105 },
                     "y": { "scale": "ySource", "field": "sourceID", "offset": 12 },
                     "fill": { "value": "black" },
                     "text": { "field": "source" },
@@ -189,7 +191,7 @@
             "from": { "data": "targetNodes" },
             "encode": {
                 "enter": {
-                    "x": { "value": 690 },
+                    "x": { "value": 1075 },
                     "y": { "scale": "yTarget", "field": "targetID", "offset": 60 },
                     "fill": { "value": "black" },
                     "text": { "field": "target" },

@@ -7,8 +7,10 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
         // Apply filter
         document.getElementById('ethnicityFilter').addEventListener('change', function() {
             const selectedEthnicity = this.value;
+            console.log("Selected Ethnicity:", selectedEthnicity);
 
             var filteredData = parsedData.filter(d => d.ethnicity === selectedEthnicity);
+            console.log("Filtered Data:", filteredData);
 
             var data = transformData(filteredData);
             console.log("Transformed Data:", data);
@@ -24,7 +26,7 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
                         return v.state; 
                     }); 
 
-            var test = JSC.Chart('test', { 
+            var slopeChart = JSC.Chart('slopeChart', { 
                 annotations: [ 
                     {  
                     label_style_fontSize: 14, 
@@ -91,7 +93,10 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
                         xAxisTick: {}, 
                         hoverAction: 'highlightSeries', 
                         tooltip: 
-                            'CO₂ emissions in %state, %xValue<br><b>%zValue Mt</b>'
+                            'State: <b>%state</b><br>' + 
+                            'Ethnicity: <b>%ethnicity</b><br>' + 
+                            'Year: <b>%xValue</b><br>' + 
+                            'Deaths: <b>%zValue</b>' 
                     } 
                 }, 
                 series: getSeries(data) 
@@ -99,8 +104,9 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
             
             function getSeries(data) { 
                 return data.map(function(v) { 
-                    var state = v.state, 
-                    leftI = leftCategories.indexOf(state), 
+                    var state = v.state; 
+                    var ethnicity = v.ethnicity;
+                    leftI = leftCategories.indexOf(state); 
                     rightI = rightCategories.indexOf(state); 
                     return { 
                         color: 
@@ -113,14 +119,16 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
                             { 
                                 x: 2015, 
                                 y: leftI, 
-                                z: v[2015], 
-                                attributes_state: state 
+                                z: v[2015],
+                                attributes_state: state,
+                                attributes_ethnicity: ethnicity
                             }, 
                             { 
                                 x: 2022, 
                                 y: rightI, 
                                 z: v[2022], 
-                                attributes_state: state 
+                                attributes_state: state,
+                                attributes_ethnicity: ethnicity
                             } 
                         ] 
                     }; 
@@ -131,36 +139,6 @@ fetch('https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/he
     })
 
 var palette = ['#4CAF50', '#FF5722', '#BDBDBD']; 
-  
-function getSeries(data) { 
-    return data.map(function(v) { 
-        var country = v.country, 
-        leftI = leftCategories.indexOf(country), 
-        rightI = rightCategories.indexOf(country); 
-        return { 
-            color: 
-                leftI < rightI 
-                ? palette[0] 
-                : leftI > rightI 
-                ? palette[1] 
-                : palette[2], 
-            points: [ 
-                { 
-                    x: 1990, 
-                    y: leftI, 
-                    z: v[1990], 
-                    attributes_country: country 
-                }, 
-                { 
-                    x: 2000, 
-                    y: rightI, 
-                    z: v[2020], 
-                    attributes_country: country 
-                } 
-            ] 
-        }; 
-    }); 
-} 
 
 function parseCSV(text) {
     const rows = text.split('\n').slice(1); 
