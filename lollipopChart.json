@@ -1,0 +1,107 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_maternal_state.csv", 
+        "format": {"type": "csv"}
+    },
+    "params": [
+        {
+            "name": "year_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022"
+                ],
+                "labels": [
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018",
+                    "2019",
+                    "2020",
+                    "2021",
+                    "2022"
+                ],
+                "name": "Year: "
+            },
+            "value": "2015"
+        }
+    ],
+    "transform": [
+        {
+            "calculate": "utcParse(datum.date, '%d/%m/%Y')",  
+            "as": "parsed_date"
+        },
+        {
+            "calculate": "year(datum.parsed_date)",
+            "as": "year"
+        },
+        {
+            "filter": "datum.year == year_selection"
+        }
+    ],
+    "encoding": {
+        "y": {
+            "field": "state", 
+            "type": "ordinal", 
+            "title": "State"
+        },
+        "x": {
+            "field": "abs", 
+            "type": "quantitative", 
+            "title": "Number of Deaths"
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "bar",
+                "size": 3
+            },
+            "encoding": {
+                "x": {
+                    "field": "abs", 
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "state", 
+                    "type": "ordinal"
+                },
+                "color": {
+                    "field": "abs",
+                    "type": "quantitative",
+                    "scale": {"scheme": "blues"}
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "color": "orange",
+                "size": 100
+            },
+            "encoding": {
+                "x": {
+                    "field": "abs", 
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "state", 
+                    "type": "ordinal"
+                },
+                "color": {
+                    "field": "abs",
+                    "type": "quantitative",
+                    "scale": {"scheme": "blues"}
+                }
+            }
+        }
+    ]
+}

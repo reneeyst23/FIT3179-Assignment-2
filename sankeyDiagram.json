@@ -1,0 +1,174 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "width": 100,
+    "height": 200,
+    "autosize": "pad",
+    "signals": [
+        {
+            "name": "selectedDate",
+            "value": "01/01/2015",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "01/01/2015",
+                    "01/01/2016",
+                    "01/01/2017",
+                    "01/01/2018",
+                    "01/01/2019",
+                    "01/01/2020",
+                    "01/01/2021",
+                    "01/01/2022"
+                ],
+                "name": "Select Date: "
+            }
+        }
+    ],
+    "data": [
+        {
+            "name": "rawData",
+            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/deaths_early_childhood_state.csv",
+            "format": { "type": "csv" },
+            "transform": [
+                { "type": "formula", "as": "value", "expr": "datum.abs" },
+                { "type": "formula", "as": "source", "expr": "datum.state" },
+                { "type": "formula", "as": "target", "expr": "datum.type" },
+                {
+                    "type": "filter",
+                    "expr": "datum.date === selectedDate"
+                }
+            ]
+        },
+        {
+            "name": "sourceNodes",
+            "source": "rawData",
+            "transform": [
+                {
+                    "type": "aggregate",
+                    "groupby": ["source"],
+                    "as": ["sourceNode"],
+                    "ops": ["sum"],
+                    "fields": ["value"]
+                },
+                {
+                    "type": "window",
+                    "ops": ["row_number"],
+                    "as": ["sourceID"]
+                }
+            ]
+        },
+        {
+            "name": "targetNodes",
+            "source": "rawData",
+            "transform": [
+                {
+                    "type": "aggregate",
+                    "groupby": ["target"],
+                    "as": ["targetNode"],
+                    "ops": ["sum"],
+                    "fields": ["value"]
+                },
+                {
+                    "type": "window",
+                    "ops": ["row_number"],
+                    "as": ["targetID"]
+                }
+            ]
+        },
+        {
+            "name": "links",
+            "source": "rawData",
+            "transform": [
+                {
+                    "type": "lookup",
+                    "from": "sourceNodes",
+                    "key": "source",
+                    "fields": ["source"],
+                    "as": ["sourceIndex"]
+                },
+                {
+                    "type": "lookup",
+                    "from": "targetNodes",
+                    "key": "target",
+                    "fields": ["target"],
+                    "as": ["targetIndex"]
+                }
+            ]
+        }
+    ],
+    "scales": [
+        {
+            "name": "ySource",
+            "type": "band",
+            "domain": { "data": "sourceNodes", "field": "sourceID" },
+            "range": [0, 600],
+            "padding": 0.2
+        },
+        {
+            "name": "yTarget",
+            "type": "band",
+            "domain": { "data": "targetNodes", "field": "targetID" },
+            "range": [0, 600],
+            "padding": 0.1
+        },
+        {
+            "name": "color",
+            "type": "ordinal",
+            "domain": { "data": "rawData", "fields": ["source", "target"] },
+            "range": { "scheme": "tableau20" }
+        },
+        {
+            "name": "linkWidth",
+            "type": "linear",
+            "domain": [1, 500],
+            "range": [1, 20]
+        }
+    ],
+    "marks": [
+        {
+            "type": "rect",
+            "from": { "data": "sourceNodes" },
+            "encode": {
+            "enter": {
+                    "x": { "value": 100 },
+                    "y": { "scale": "ySource", "field": "sourceID" },
+                    "width": { "value": 100 },
+                    "height": { "scale": "ySource", "band": 1 },
+                    "fill": { "scale": "color", "field": "source" },
+                    "tooltip": { "signal": "datum.source || datum.target" }
+                }
+            }
+        },
+        {
+            "type": "rect",
+            "from": { "data": "targetNodes" },
+            "encode": {
+            "enter": {
+                    "x": { "value": 650 },
+                    "y": { "scale": "yTarget", "field": "targetID" },
+                    "width": { "value": 80 },
+                    "height": { "scale": "yTarget", "band": 1 },
+                    "fill": { "scale": "color", "field": "target" },
+                    "tooltip": { "signal": "datum.source || datum.target" }
+                }
+            }
+        },
+        {
+            "type": "path",
+            "from": { "data": "links" },
+            "encode": {
+            "update": {
+                    "path": {
+                        "signal": "'M' + 170 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 500 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 550 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 650 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
+                    },
+                    "stroke": { "scale": "color", "field": "source" },
+                    "strokeWidth": { "signal": "scale('linkWidth', datum.value)" },
+                    "opacity": { "value": 0.6 },
+                    "tooltip": {
+                        "signal": "{'State': datum.source, 'Type of Early Childhood': datum.target, 'Number of Deaths': datum.value}"
+                    }
+                }
+            }
+        }
+    ]
+}
+  
