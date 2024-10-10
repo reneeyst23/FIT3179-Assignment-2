@@ -131,7 +131,7 @@
             "enter": {
                     "x": { "value": 100 },
                     "y": { "scale": "ySource", "field": "sourceID" },
-                    "width": { "value": 100 },
+                    "width": { "value": 110 },
                     "height": { "scale": "ySource", "band": 1 },
                     "fill": { "scale": "color", "field": "source" },
                     "tooltip": { "signal": "datum.source || datum.target" }
@@ -166,6 +166,36 @@
                     "tooltip": {
                         "signal": "{'State': datum.source, 'Type of Early Childhood': datum.target, 'Number of Deaths': datum.value}"
                     }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "from": { "data": "sourceNodes" },
+            "encode": {
+            "enter": {
+                    "x": { "value": 155 },
+                    "y": { "scale": "ySource", "field": "sourceID", "offset": 12 },
+                    "fill": { "value": "black" },
+                    "text": { "field": "source" },
+                    "align": { "value": "center" },
+                    "baseline": { "value": "middle" },
+                    "fontSize": { "value": 12 }
+                }
+            }
+        },
+        {
+            "type": "text",
+            "from": { "data": "targetNodes" },
+            "encode": {
+                "enter": {
+                    "x": { "value": 690 },
+                    "y": { "scale": "yTarget", "field": "targetID", "offset": 60 },
+                    "fill": { "value": "black" },
+                    "text": { "field": "target" },
+                    "align": { "value": "center" },
+                    "baseline": { "value": "middle" },
+                    "fontSize": { "value": 12 }
                 }
             }
         }

@@ -4,6 +4,8 @@
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_maternal_state.csv", 
         "format": {"type": "csv"}
     },
+    "width": 400,
+    "height": 400,
     "params": [
         {
             "name": "year_selection",
@@ -78,13 +80,17 @@
                     "field": "abs",
                     "type": "quantitative",
                     "scale": {"scheme": "blues"}
-                }
+                },
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"field": "abs", "type": "quantitative", "title": "Number of Deaths"},
+                    {"field": "year", "type": "ordinal", "title": "Year"}
+                ]
             }
         },
         {
             "mark": {
                 "type": "circle",
-                "color": "orange",
                 "size": 100
             },
             "encoding": {
@@ -100,7 +106,12 @@
                     "field": "abs",
                     "type": "quantitative",
                     "scale": {"scheme": "blues"}
-                }
+                },
+                "tooltip": [
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"field": "abs", "type": "quantitative", "title": "Number of Deaths"},
+                    {"field": "year", "type": "ordinal", "title": "Year"}
+                ]
             }
         }
     ]

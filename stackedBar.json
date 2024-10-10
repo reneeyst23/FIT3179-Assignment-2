@@ -1,8 +1,13 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {"url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv"},
-    "width": 550, "height": 300,
-    "resolve": {"scale": {"color": "independent"}},
+    "data": {
+        "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv"
+    },
+    "width": 550,
+    "height": 300,
+    "resolve": {
+        "scale": {"color": "independent"}
+    },
     "params": [
         {
             "name": "state_selection",
@@ -75,38 +80,40 @@
             "filter": "datum.state == state_selection"
         }
     ],
-    "encoding": {
-        "x": { 
-            "field": "year", 
-            "type": "ordinal", 
-            "stack": "zero",
-            "title": "Year"
-        },
-        "y": {
-            "aggregate": "sum",
-            "field": "abs", 
-            "type": "quantitative",
-            "title": "Total Deaths"
-        },
-        "color": {
-            "field": "gender", 
-            "type": "nominal",
-            "legend": {
-                "title": null,
-                "orient": "top"
-            }
-        }
-    },
     "layer": [
         {
             "mark": "bar",
             "encoding": {
-                "tooltip": [
-                    {"field": "state", "type": "nominal", "title": "State"},
-                    {"field": "gender", "type":"nominal", "title": "Gender"},
-                    {"field": "abs", "aggregate": "sum", "type": "quantitative", "title": "Number of Death"},
-                    {"field": "year", "type": "ordinal", "title": "Year"}
-                ]
+            "x": { 
+                "field": "year", 
+                "type": "ordinal", 
+                "stack": "zero",
+                "title": "Year"
+            },
+            "y": {
+                "aggregate": "sum",
+                "field": "abs", 
+                "type": "quantitative",
+                "title": "Total Number of Deaths"
+            },
+            "color": {
+                "field": "gender", 
+                "type": "nominal",
+                "legend": {
+                    "title": null,
+                    "orient": "top"
+                },
+                "scale": {
+                    "domain": ["Male", "Female"],
+                    "range": ["skyblue", "lightpink"]
+                }   
+            },
+            "tooltip": [
+                {"field": "state", "type": "nominal", "title": "State"},
+                {"field": "gender", "type":"nominal", "title": "Gender"},
+                {"field": "abs", "aggregate": "sum", "type": "quantitative", "title": "Number of Death"},
+                {"field": "year", "type": "ordinal", "title": "Year"}
+            ]
             }
         },
         {
@@ -114,7 +121,7 @@
                 "type": "text",
                 "align": "center",
                 "baseline": "middle",
-                "dy": -10
+                "dy": -15
             },
             "encoding": {
                 "text": {
@@ -124,8 +131,71 @@
                 },
                 "color": {
                     "value": "black"
+                },
+                "x": { 
+                    "field": "year", 
+                    "type": "ordinal", 
+                    "stack": "zero",
+                    "title": "Year"
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "abs", 
+                    "type": "quantitative",
+                    "title": "Total Number of Deaths"
                 }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "aggregate": [{"op": "sum", "field": "abs", "as": "total_deaths"}],
+                    "groupby": ["year"]
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "color": "black",
+                "strokeWidth": 3
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal",
+                    "title": "Year"
+                },
+                "y": {
+                    "field": "total_deaths",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {"field": "year", "type": "ordinal", "title": "Year"},
+                    {"field": "total_deaths", "type": "quantitative", "title": "Total Deaths"}
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "circle",
+                "size": 100,
+                "color": "black"
+            },
+            "encoding": {
+                "x": {
+                    "field": "year",
+                    "type": "ordinal"
+                },
+                "y": {
+                    "aggregate": "sum",
+                    "field": "abs",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {"field": "year", "type": "ordinal", "title": "Year"},
+                    {"field": "abs", "aggregate": "sum", "type": "quantitative", "title": "Total Number of Deaths"}
+                ]
             }
         }
     ]
-}
+  }
+  
