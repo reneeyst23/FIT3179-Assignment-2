@@ -7,13 +7,33 @@
             }
         }
     },
-    "width": 650,
-    "height": 400,
+    "width": 720,
+    "height": 500,
+    "title": {
+        "text": "Death Rate in Malaysian States", 
+        "fontSize": 20,
+        "font": "Arial",
+        "anchor": "start",
+        "color": "black"
+    },
     "projection": {
         "type": "equalEarth",
         "center": [109, 4.5],  
-        "scale": 2000
+        "scale": 2300
     },
+    "params": [
+        {
+            "name": "selected_year",
+            "value": 2015,
+            "bind": {
+                "input": "range",
+                "min": 2015,
+                "max": 2022,
+                "step": 1,
+                "name": "Year: "
+            }
+        }
+    ],
     "layer": [
         {
             "data": {
@@ -28,43 +48,63 @@
         },
         {
             "data": {
-                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/my-3.json",  
-                "format": {"type": "topojson", "feature": "my"}
+                "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_state.csv",  
+                "format": {"type": "csv"}
             },
             "transform": [
                 {
-                    "lookup": "properties.name",  
+                    "calculate": "utcParse(datum.date, '%d/%m/%Y')",  
+                    "as": "parsed_date"
+                },
+                {
+                    "calculate": "year(datum.parsed_date)", 
+                    "as": "year"
+                },
+                {
+                    "filter": "datum.year == selected_year"  
+                },
+                {
+                    "lookup": "state",  
                     "from": {
                         "data": {
-                            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_state.csv",  
-                            "format": {"type": "csv"}
+                            "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/my-3.json",  
+                            "format": {"type": "topojson", "feature": "my"}
                         },
-                        "key": "state",  
-                        "fields": ["rate"]  
+                        "key": "properties.name",  
+                        "fields": ["type", "geometry"]  
                     }
+                },
+                {
+                    "calculate": "datum.rate <= 0.9 ? '1' : datum.rate <= 1.9 ? '2' : datum.rate <= 2.9 ? '3' : datum.rate <= 3.9 ? '4' : datum.rate <= 4.9 ? '5' : datum.rate <= 5.9 ? '6' : datum.rate <= 6.9 ? '7' : datum.rate <= 7.9 ? '8' : datum.rate <= 8.9 ? '9' : '>10'",
+                    "as": "rateCategory"
                 }
             ],
             "mark": "geoshape",
             "encoding": {
                 "color": {
-                    "field": "rate",
-                    "title": "Death rate per 1000 population",
-                    "type": "quantitative",
-                    "scale": {"scheme": "blues"},
+                    "field": "rateCategory",
+                    "title": "Death Rate per 1000 Population",
+                    "type": "nominal",
+                    "scale": {
+                        "domain": ["1", "2", "3", "4", "5", "6", "7", "8", "9", ">10"],
+                        "range": ["#faf6ff", "#f3e9ff", "#ebdcfd", "#e0c8f8", "#c89ff1",
+                                  "#b176e3", "#9e41dc", "#7a2aab", "#54137a", "#33064b"]
+                    },
                     "legend": {
-                        "titleFontSize": 12, 
-                        "labelFontSize": 12,  
-                        "gradientLength": 200,  
-                        "orient": "top-right", 
+                        "symbolType": "square",
+                        "titleFontSize": 11, 
+                        "labelFontSize": 14,    
+                        "orient": "right", 
                         "titleFont": "Arial",  
-                        "labelFont": "Arial"   
+                        "labelFont": "Arial"  
                     }
                 },
                 "tooltip": [
-                    {"field": "properties.name", "type": "nominal", "title": "State"},
-                    {"field": "rate", "type": "quantitative", "title": "Death Rate"}
+                    {"field": "state", "type": "nominal", "title": "State"},
+                    {"field": "rate", "type": "quantitative", "title": "Death Rate"},
+                    {"field": "year", "type": "ordinal", "title": "Year"}
                 ]
-            }  
+            }
         }
     ]
 }

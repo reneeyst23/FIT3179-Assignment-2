@@ -1,0 +1,133 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv",
+        "format": {"type": "csv"}
+    },
+    "width": 400,
+    "height": 500,
+    "title": {
+        "text": "Ethnicity Distribution", 
+        "fontSize": 20,
+        "font": "Arial",
+        "anchor": "start",
+        "color": "black",
+        "offset": 20
+    },
+    "params": [
+        {
+            "name": "ethnicity_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "Bumi Malay",
+                    "Bumi Other",
+                    "Chinese",
+                    "Indian",
+                    "Other Citizen",
+                    "Other Non-Citizen"
+                ],
+                "labels": [
+                    "Bumi Malay",
+                    "Bumi Other",
+                    "Chinese",
+                    "Indian",
+                    "Other Citizen",
+                    "Other Non-Citizen"
+                ],
+                "name": "Ethnicity: "
+            },
+            "value": "Bumi Malay"
+        }
+    ],
+    "transform": [
+        {
+            "lookup": "ethnicity",
+            "from": {
+                "data": {
+                    "values": [
+                        { "ethnicity": "bumi_malay", "ethn": "Bumi Malay"},
+                        { "ethnicity": "bumi_other", "ethn": "Bumi Other"},
+                        { "ethnicity": "chinese", "ethn": "Chinese"},
+                        { "ethnicity": "indian", "ethn": "Indian"},
+                        { "ethnicity": "other_citizen", "ethn": "Other Citizen"},
+                        { "ethnicity": "other_noncitizen", "ethn": "Other Non-Citizen"}
+                    ]
+                },
+                "key": "ethnicity",
+                "fields": ["ethn"]
+            }
+        },
+        {
+            "calculate": "utcParse(datum.date, '%d/%m/%Y')",  
+            "as": "parsed_date"
+        },
+        {
+            "calculate": "year(datum.parsed_date)",
+            "as": "year"
+        },
+        {
+            "filter": "datum.ethn == ethnicity_selection"
+        },
+        {
+            "aggregate": [
+                {"op": "sum", "field": "abs", "as": "total_abs"}
+            ],
+            "groupby": ["state", "year"]
+        },
+        {
+            "window": [
+                {
+                    "op": "rank", 
+                    "as": "rank"
+                }
+            ],
+            "groupby": ["year"],
+            "sort": [{"field": "total_abs", "order": "descending"}]
+        }
+    ],
+    "mark": "line",
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "ordinal",
+            "title": "Year"
+        },
+        "y": {
+            "field": "rank",
+            "type": "ordinal",
+            "scale": {"reverse": false},
+            "title": "Rank"
+        },
+        "color": {
+            "field": "state",
+            "type": "nominal",
+            "title": "State",
+            "scale": {
+                "range": [
+                    "#4E79A7", "#A0CBE8", "#F28E2B", "#FFBE7D", "#B6992D", 
+                    "#F1CE63", "#E15759", "#FF9D9A", "#BAB0AC", "#FABFD2", 
+                    "#AEC7E8", "#B07AA1", "#D7B5A6", "#ff9896", "#c5b0d5", 
+                    "#FFBC79"
+                ]
+            }
+        },
+        "tooltip": [
+            {"field": "state", "type": "nominal", "title": "State"},
+            {"field": "total_abs", "type": "quantitative", "title": "Number of Death"},
+            {"field": "rank", "type": "quantitative", "title": "Rank"},
+            {"field": "year", "type": "ordinal", "title": "Year"}
+        ]
+    },
+    "config": {
+        "line": {
+            "point": true
+        },
+        "axis": {
+            "grid": true,
+            "labelFontSize": 12,
+            "titleFontSize": 14
+        }
+    }
+}
+  

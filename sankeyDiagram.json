@@ -23,6 +23,13 @@
             }
         }
     ],
+    "title": {
+        "text": "Types of Early Childhood Deaths", 
+        "fontSize": 20,
+        "font": "Arial",
+        "anchor": "start",
+        "color": "black"
+    },
     "data": [
         {
             "name": "rawData",
@@ -33,7 +40,11 @@
                 { "type": "formula", "as": "year", "expr": "year(datum.parsed_date)" },
                 { "type": "formula", "as": "value", "expr": "datum.abs" },
                 { "type": "formula", "as": "source", "expr": "datum.state" },
-                { "type": "formula", "as": "target", "expr": "datum.type" },
+                {
+                    "type": "formula",
+                    "as": "target",
+                    "expr": "datum.type === 'perinatal' ? 'Perinatal' : datum.type === 'neonatal' ? 'Neonatal' : datum.type === 'infant' ? 'Infant' : datum.type === 'toddler' ? 'Toddler' : datum.type"
+                },
                 {
                     "type": "filter",
                     "expr": "datum.year === selectedDate"
@@ -116,7 +127,12 @@
             "name": "color",
             "type": "ordinal",
             "domain": { "data": "rawData", "fields": ["source", "target"] },
-            "range": { "scheme": "tableau20" }
+            "range": [
+                "#4E79A7", "#A0CBE8", "#F28E2B", "#FFBE7D", "#B6992D", 
+                "#F1CE63", "#E15759", "#FF9D9A", "#BAB0AC", "#FABFD2", 
+                "#AEC7E8", "#B07AA1", "#D7B5A6", "#ff9896", "#c5b0d5", 
+                "#FFBC79", "#849DB1", "#c7c7c7", "#dbdb8d", "#9edae5"
+            ]
         },
         {
             "name": "linkWidth",
@@ -131,7 +147,7 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 50 },
+                    "x": { "value": 10 },
                     "y": { "scale": "ySource", "field": "sourceID" },
                     "width": { "value": 110 },
                     "height": { "scale": "ySource", "band": 1.5 },
@@ -145,7 +161,7 @@
             "from": { "data": "targetNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 1035 },
+                    "x": { "value": 990 },
                     "y": { "scale": "yTarget", "field": "targetID" },
                     "width": { "value": 80 },
                     "height": { "scale": "yTarget", "band": 1 },
@@ -160,7 +176,7 @@
             "encode": {
             "update": {
                     "path": {
-                        "signal": "'M' + 130 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 800 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 850 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 1035 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
+                        "signal": "'M' + 100 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 800 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 850 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 990 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
                     },
                     "stroke": { "scale": "color", "field": "source" },
                     "strokeWidth": { "signal": "scale('linkWidth', datum.value)" },
@@ -176,8 +192,8 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 105 },
-                    "y": { "scale": "ySource", "field": "sourceID", "offset": 12 },
+                    "x": { "value": 65 },
+                    "y": { "scale": "ySource", "field": "sourceID", "offset": 20 },
                     "fill": { "value": "black" },
                     "text": { "field": "source" },
                     "align": { "value": "center" },
@@ -191,8 +207,8 @@
             "from": { "data": "targetNodes" },
             "encode": {
                 "enter": {
-                    "x": { "value": 1075 },
-                    "y": { "scale": "yTarget", "field": "targetID", "offset": 60 },
+                    "x": { "value": 1030 },
+                    "y": { "scale": "yTarget", "field": "targetID", "offset": 70 },
                     "fill": { "value": "black" },
                     "text": { "field": "target" },
                     "align": { "value": "center" },
