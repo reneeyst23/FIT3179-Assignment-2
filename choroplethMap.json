@@ -5,7 +5,8 @@
             "tooltip": {
                 "align": "center"
             }
-        }
+        },
+        "background": "#f0f8ff"
     },
     "width": 1030,
     "height": 500,

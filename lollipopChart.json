@@ -4,6 +4,9 @@
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_maternal_state.csv", 
         "format": {"type": "csv"}
     },
+    "config": {
+        "background": "#f0f8ff"
+    },
     "width": 450,
     "height": 500,
     "title": {

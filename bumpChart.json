@@ -134,7 +134,8 @@
             "grid": true,
             "labelFontSize": 12,
             "titleFontSize": 14
-        }
+        },
+        "background": "#f0f8ff"
     }
 }
   

@@ -3,6 +3,9 @@
     "data": {
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv"
     },
+    "config": {
+        "background": "#f0f8ff"
+    },
     "width": 500,
     "height": 475,
     "resolve": {
