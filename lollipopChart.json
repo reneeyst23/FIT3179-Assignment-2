@@ -4,11 +4,11 @@
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_maternal_state.csv", 
         "format": {"type": "csv"}
     },
-    "width": 400,
-    "height": 400,
+    "width": 450,
+    "height": 500,
     "title": {
         "text": "Maternal Death Distribution", 
-        "fontSize": 20,
+        "fontSize": 30,
         "font": "Arial",
         "anchor": "start",
         "color": "black",
@@ -98,7 +98,7 @@
                 },
                 "tooltip": [
                     {"field": "state", "type": "nominal", "title": "State"},
-                    {"field": "abs", "type": "quantitative", "title": "Number of Deaths"},
+                    {"field": "abs", "type": "quantitative", "title": "Number of Death"},
                     {"field": "year", "type": "ordinal", "title": "Year"}
                 ]
             }
@@ -132,10 +132,49 @@
                 },
                 "tooltip": [
                     {"field": "state", "type": "nominal", "title": "State"},
-                    {"field": "abs", "type": "quantitative", "title": "Number of Deaths"},
+                    {"field": "abs", "type": "quantitative", "title": "Number of Death"},
                     {"field": "year", "type": "ordinal", "title": "Year"}
                 ]
             }
-        }
+        },
+        {
+            "data": {
+                "values": [
+                    {"year": 2015, "annotation": "Selangor has the highest number of\nmaternal deaths with 21 cases"},
+                    {"year": 2016, "annotation": "Both Perlis and W.P. Putrajaya\nrecorded 0 maternal deaths in 2016"},
+                    {"year": 2017, "annotation": "W.P. Putrajaya remained\nrecorded 0 maternal deaths"},
+                    {"year": 2018, "annotation": "A slight rise was observed for\nmost states in 2018"},
+                    {"year": 2019, "annotation": "Sabah's recorded with the second\nhighest number of maternal deaths"},
+                    {"year": 2020, "annotation": "2020 marked a drop sign in most\nstates"},
+                    {"year": 2021, "annotation": "Selangor increases from 23 to 80\nnumber of maternal deaths in\none year time"},
+                    {"year": 2022, "annotation": "2022 data shows a decrease\nin maternal deaths for most states"}
+                ]
+            },
+            "transform": [
+                {
+                    "filter": "datum.year == year_selection"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 210,
+                "dy": 100,
+                "fontSize": 14,
+                "color": "black",
+                "lineBreak": "\n"
+            },
+            "encoding": {
+                "x": {
+                    "value": 10  
+                },
+                "y": {
+                    "value": 30  
+                },
+                "text": {
+                    "field": "annotation"
+                }
+            }
+        }  
     ]
 }

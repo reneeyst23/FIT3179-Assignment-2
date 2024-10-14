@@ -4,11 +4,11 @@
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv",
         "format": {"type": "csv"}
     },
-    "width": 400,
-    "height": 500,
+    "width": 410,
+    "height": 502,
     "title": {
         "text": "Ethnicity Distribution", 
-        "fontSize": 20,
+        "fontSize": 30,
         "font": "Arial",
         "anchor": "start",
         "color": "black",
@@ -110,6 +110,13 @@
                     "#AEC7E8", "#B07AA1", "#D7B5A6", "#ff9896", "#c5b0d5", 
                     "#FFBC79"
                 ]
+            },
+            "legend": {
+                "labelFontSize": 17,
+                "titleFontSize": 15,
+                "titlePadding": 10,
+                "titleFont": "Arial",
+                "labelFont": "Arial"
             }
         },
         "tooltip": [

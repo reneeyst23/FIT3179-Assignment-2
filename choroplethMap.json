@@ -7,19 +7,20 @@
             }
         }
     },
-    "width": 720,
+    "width": 1030,
     "height": 500,
     "title": {
         "text": "Death Rate in Malaysian States", 
-        "fontSize": 20,
+        "fontSize": 30,
         "font": "Arial",
         "anchor": "start",
-        "color": "black"
+        "color": "black",
+        "offset": 15
     },
     "projection": {
         "type": "equalEarth",
         "center": [109, 4.5],  
-        "scale": 2300
+        "scale": 2800
     },
     "params": [
         {
@@ -92,11 +93,13 @@
                     },
                     "legend": {
                         "symbolType": "square",
-                        "titleFontSize": 11, 
-                        "labelFontSize": 14,    
+                        "titleFontSize": 15, 
+                        "labelFontSize": 17,    
                         "orient": "right", 
                         "titleFont": "Arial",  
-                        "labelFont": "Arial"  
+                        "labelFont": "Arial",
+                        "titlePadding": 10,
+                        "titleLimit": 250  
                     }
                 },
                 "tooltip": [
@@ -104,6 +107,82 @@
                     {"field": "rate", "type": "quantitative", "title": "Death Rate"},
                     {"field": "year", "type": "ordinal", "title": "Year"}
                 ]
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {"year": 2015, "annotation": "Sabah"},
+                    {"year": 2016, "annotation": "Sabah"},
+                    {"year": 2017, "annotation": "Sabah"},
+                    {"year": 2018, "annotation": "Sabah"},
+                    {"year": 2019, "annotation": "Sabah"},
+                    {"year": 2020, "annotation": "Sabah"},
+                    {"year": 2021, "annotation": "Sabah"},
+                    {"year": 2022, "annotation": "Sabah"}
+                ]
+            },
+            "transform": [
+                {
+                    "filter": "datum.year == selected_year"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 745,
+                "dy": 135,
+                "fontSize": 15,
+                "color": "black"
+            },
+            "encoding": {
+                "x": {
+                    "value": 10  
+                },
+                "y": {
+                    "value": 30  
+                },
+                "text": {
+                    "field": "annotation"
+                }
+            }
+        },
+        {
+            "data": {
+                "values": [
+                    {"year": 2015, "annotation": "Selangor"},
+                    {"year": 2016, "annotation": "Selangor"},
+                    {"year": 2017, "annotation": "Selangor"},
+                    {"year": 2018, "annotation": "Selangor"},
+                    {"year": 2019, "annotation": "Selangor"},
+                    {"year": 2020, "annotation": "Selangor"},
+                    {"year": 2021, "annotation": "Selangor"},
+                    {"year": 2022, "annotation": "Selangor"}
+                ]
+            },
+            "transform": [
+                {
+                    "filter": "datum.year == selected_year"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 115,
+                "dy": 285,
+                "fontSize": 15,
+                "color": "black"
+            },
+            "encoding": {
+                "x": {
+                    "value": 10  
+                },
+                "y": {
+                    "value": 30  
+                },
+                "text": {
+                    "field": "annotation"
+                }
             }
         }
     ]

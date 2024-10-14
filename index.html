@@ -26,23 +26,30 @@
                 <h1>Death Statistics in Malaysia</h1>
             </div>
             <div class="pure-u-1-1 intros">
-                <p>Introduction for death statistics...</p>
+                <p>Death statistics offers not only a complex story of health, and also the socio-economic disparities.
+                    This projects dives into the death statistics from 2015 to 2022, exploring the trends that can help 
+                    inform public health strategies and drive action toward reducing preventable deaths. We will explore 
+                    how different populations' categories are affected and how we could allocate better healthcare resources 
+                    to the public.
+                </p>
             </div>
         </div>
 
-        <!-- Choropleth Map and Descriptions Section -->
         <div class="pure-g">
-            <!-- Center: Choropleth Map -->
             <div class="pure-u-1-3 choropleth-map-container">
                 <div id="choroplethMap" class="vis-container"></div>
             </div>
+        </div>
 
-            <div class="pure-u-1-3 description-right">
-                <p>Description on the left side...</p>
+        <div class="pure-g">
+            <div class="pure-u-1-1 descriptions">
+                <p>Death rates was observed in gradual increase throughout the years. If we observe, the state: Perak stood
+                    out with have an averagely higher death rate compared to other states. This could be due factors such as 
+                    heathcare accessibility, or population's lifestyle.
+                </p>
             </div>
         </div>
 
-        <!-- Additional Sections -->
         <div class="pure-g">
             <div class="pure-u-1-2" style="width: 50%">
                 <div id="stackedBar" class="vis-container"></div>
@@ -53,7 +60,22 @@
         </div>
 
         <div class="pure-g">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-2" style="width: 45%">
+                <p>From the graphs, majority of the gender of death cases are Male, slightly outnumbering Female in nearly all 
+                    states throughout the years. Furthermore, there is a noticeable significant increase from 2020 to 2021 on 
+                    the total number of deaths, which may be to the COVID-19 outbreak.
+                </p>
+            </div>
+            <div class="pure-u-1-2" style="width: 49%">
+                <p>Distribution of ethnicity is shown in a ranked bump chart and we could observe Sabah and Selangor are the top 
+                    1s overall for all ethnicity. This could mean that the number of populations for all ethnicity are living mostly
+                    in these states.
+                </p>
+            </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-1 sankeyDiagram">
                 <div id="sankeyDiagram" class="vis-container"></div>
             </div>
         </div>
@@ -62,9 +84,25 @@
             <div class="pure-u-1-2 lollipop-container" style="width: 50%">
                 <div id="lollipopChart" class="vis-container"></div>
             </div>
-            <div class="pure-u-1-2 description-right" style="width: 50%">
-                <p>Description on the right side...</p>
+            <div class="pure-u-1-2 description-right" style="width: 49%">
+                <p>In here we have shown the number of maternal deaths between all states throughout the years. One significant
+                    observation is that Selangor has the highest number of maternal deaths compared to other states. This could be
+                    due to the population density around that area in which there are many heathcare facilities available for 
+                    the population to access from.
+                    
+                    Overall, this visualisation provided insights of death statistics in Malaysia for the recent years, which helped
+                    public to understand the trends and patterns of death cases in Malaysia. This could help the government to allocate
+                    for better healthcare resources to the public as well as to improve the public health strategies. Morevover, parents
+                    could take note on the types of early childhood deaths and take necessary precautions to prevent such cases from happening.
+                </p>
             </div>
+        </div>
+
+        <div class="pure-g">
+            <div class="pure-u-1-1 sources">
+                <p><small>Visualisation by Renee Yeo Shu Ting<br>
+                Data collected from data.gov.my<br>
+                Date created on 13th October 2024</small></p>
         </div>
     </div>
 </body>
@@ -104,42 +142,40 @@
         justify-content: center; 
         width: 100%;
         text-align: center;
+        margin: 25px 0 10px 0;
     }
 
-    .description-left {
-        width: 15%;
-        text-align: center;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .sankeyDiagram {
+        width: 100%;
+        margin: 15px 0 30px 0;
     }
 
-    .description-right {
-        width: 15%;
-        padding: 10px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+    .descriptions {
+        margin: 0 0 15px 0;
     }
 
     .choropleth-map-container {
-        width: 70%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+        align-items: left;
+        margin: 0 0 0 0;
     }
 
     .lollipop-container {
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
     }
 
     .vis-container {
         width: 100%;
         height: 400px; 
         margin-bottom: 50px;
+    }
+
+    .sources {
+        margin: 15px 0 0 0;
     }
 
     @media only screen and (max-width: 768px) {
@@ -159,9 +195,9 @@
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 90px;
         text-align: center;
-        margin: 30px 0 0 0;
+        margin: 45px 0 0 0;
         font-family: 'bradley hand', cursive;
         font-weight: bold;
     }
@@ -172,6 +208,13 @@
         font-family: 'Arial', sans-serif;
         margin: 0 0 10px 0;
     }
+
+    p {
+        font-size: 25px;
+        text-align: justify;
+        font-family: 'Arial', sans-serif;
+    }
+
 </style>
 
 </html>

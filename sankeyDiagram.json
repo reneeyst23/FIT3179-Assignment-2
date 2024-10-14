@@ -25,7 +25,7 @@
     ],
     "title": {
         "text": "Types of Early Childhood Deaths", 
-        "fontSize": 20,
+        "fontSize": 30,
         "font": "Arial",
         "anchor": "start",
         "color": "black"
@@ -113,14 +113,14 @@
             "name": "ySource",
             "type": "band",
             "domain": { "data": "sourceNodes", "field": "sourceID" },
-            "range": [0, 650],
+            "range": [0, 700],
             "padding": 0.2
         },
         {
             "name": "yTarget",
             "type": "band",
             "domain": { "data": "targetNodes", "field": "targetID" },
-            "range": [0, 650],
+            "range": [0, 700],
             "padding": 0.1
         },
         {
@@ -147,7 +147,7 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 10 },
+                    "x": { "value": 5 },
                     "y": { "scale": "ySource", "field": "sourceID" },
                     "width": { "value": 110 },
                     "height": { "scale": "ySource", "band": 1.5 },
@@ -161,7 +161,7 @@
             "from": { "data": "targetNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 990 },
+                    "x": { "value": 1200 },
                     "y": { "scale": "yTarget", "field": "targetID" },
                     "width": { "value": 80 },
                     "height": { "scale": "yTarget", "band": 1 },
@@ -176,13 +176,13 @@
             "encode": {
             "update": {
                     "path": {
-                        "signal": "'M' + 100 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 800 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 850 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 990 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
+                        "signal": "'M' + 100 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + 'C' + 950 + ',' + (scale('ySource', datum.sourceIndex.sourceID) + bandwidth('ySource') / 2) + ' ' + 950 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2) + ' ' + 1200 + ',' + (scale('yTarget', datum.targetIndex.targetID) + bandwidth('yTarget') / 2)"
                     },
                     "stroke": { "scale": "color", "field": "source" },
                     "strokeWidth": { "signal": "scale('linkWidth', datum.value)" },
                     "opacity": { "value": 0.6 },
                     "tooltip": {
-                        "signal": "{'State': datum.source, 'Type of Early Childhood': datum.target, 'Number of Deaths': datum.value}"
+                        "signal": "{'State': datum.source, 'Type of Early Childhood': datum.target, 'Number of Death': datum.value, 'Year': selectedDate}"
                     }
                 }
             }
@@ -192,7 +192,7 @@
             "from": { "data": "sourceNodes" },
             "encode": {
             "enter": {
-                    "x": { "value": 65 },
+                    "x": { "value": 61 },
                     "y": { "scale": "ySource", "field": "sourceID", "offset": 20 },
                     "fill": { "value": "black" },
                     "text": { "field": "source" },
@@ -207,7 +207,7 @@
             "from": { "data": "targetNodes" },
             "encode": {
                 "enter": {
-                    "x": { "value": 1030 },
+                    "x": { "value": 1240 },
                     "y": { "scale": "yTarget", "field": "targetID", "offset": 70 },
                     "fill": { "value": "black" },
                     "text": { "field": "target" },

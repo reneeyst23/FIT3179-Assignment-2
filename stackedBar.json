@@ -3,18 +3,19 @@
     "data": {
         "url": "https://raw.githubusercontent.com/reneeyst23/FIT3179-Assignment-2/refs/heads/main/data/death_sex_ethnic_state.csv"
     },
-    "width": 400,
+    "width": 500,
     "height": 475,
     "resolve": {
         "scale": {"color": "independent"}
     },
     "title": {
         "text": "Gender Distribution", 
-        "fontSize": 20,
+        "fontSize": 30,
         "font": "Arial",
         "anchor": "start",
         "color": "black",
-        "offset": 20
+        "offset": 20,
+        "align": "left"
     },
     "params": [
         {
@@ -109,7 +110,9 @@
                 "type": "nominal",
                 "legend": {
                     "title": null,
-                    "orient": "top"
+                    "orient": "top",
+                    "labelFontSize": 17,
+                    "labelFont": "Arial"
                 },
                 "scale": {
                     "domain": ["Male", "Female"],
