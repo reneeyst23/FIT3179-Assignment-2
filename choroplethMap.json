@@ -185,6 +185,44 @@
                     "field": "annotation"
                 }
             }
+        },
+        {
+            "data": {
+                "values": [
+                    {"year": 2015, "annotation": "Perak"},
+                    {"year": 2016, "annotation": "Perak"},
+                    {"year": 2017, "annotation": "Perak"},
+                    {"year": 2018, "annotation": "Perak"},
+                    {"year": 2019, "annotation": "Perak"},
+                    {"year": 2020, "annotation": "Perak"},
+                    {"year": 2021, "annotation": "Perak"},
+                    {"year": 2022, "annotation": "Perak"}
+                ]
+            },
+            "transform": [
+                {
+                    "filter": "datum.year == selected_year"
+                }
+            ],
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "dx": 105,
+                "dy": 220,
+                "fontSize": 15,
+                "color": "black"
+            },
+            "encoding": {
+                "x": {
+                    "value": 10  
+                },
+                "y": {
+                    "value": 30  
+                },
+                "text": {
+                    "field": "annotation"
+                }
+            }
         }
     ]
 }
