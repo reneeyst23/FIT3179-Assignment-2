@@ -77,7 +77,7 @@
                     }
                 },
                 {
-                    "calculate": "datum.rate <= 0.9 ? '1' : datum.rate <= 1.9 ? '2' : datum.rate <= 2.9 ? '3' : datum.rate <= 3.9 ? '4' : datum.rate <= 4.9 ? '5' : datum.rate <= 5.9 ? '6' : datum.rate <= 6.9 ? '7' : datum.rate <= 7.9 ? '8' : datum.rate <= 8.9 ? '9' : '>10'",
+                    "calculate": "datum.rate <= 3.9 ? '<4' : datum.rate <= 4.9 ? '5' : datum.rate <= 5.9 ? '6' : datum.rate <= 6.9 ? '7' : datum.rate <= 7.9 ? '8' : datum.rate <= 8.9 ? '9' : '>10'",
                     "as": "rateCategory"
                 }
             ],
@@ -88,9 +88,8 @@
                     "title": "Death Rate per 1000 Population",
                     "type": "nominal",
                     "scale": {
-                        "domain": ["1", "2", "3", "4", "5", "6", "7", "8", "9", ">10"],
-                        "range": ["#faf6ff", "#f3e9ff", "#ebdcfd", "#e0c8f8", "#c89ff1",
-                                  "#b176e3", "#9e41dc", "#7a2aab", "#54137a", "#33064b"]
+                        "domain": ["<4", "5", "6", "7", "8", "9", ">10"],
+                        "range": ["#f3e9ff", "#e0c8f8", "#b176e3", "#9e41dc", "#7a2aab", "#54137a", "#33064b"]
                     },
                     "legend": {
                         "symbolType": "square",
@@ -100,7 +99,8 @@
                         "titleFont": "Arial",  
                         "labelFont": "Arial",
                         "titlePadding": 10,
-                        "titleLimit": 250  
+                        "titleLimit": 250,
+                        "labelPadding": 25  
                     }
                 },
                 "tooltip": [
